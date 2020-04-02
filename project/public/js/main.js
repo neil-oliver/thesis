@@ -382,7 +382,7 @@ var offline = true
 
 if (offline){
 
-    d3.json("/data/dynamodb-download.json")
+    d3.json("../data/dynamodb-download.json")
   .then(function(data){
     console.time('loadData')
 
