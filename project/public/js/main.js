@@ -194,7 +194,7 @@ var app = new Vue({
         },
         stackScale() {
             const x = d3.scaleTime().range([0, this.width]);
-            const y = d3.scaleLinear().range([0,this.height]);
+            const y = d3.scaleLinear().range([this.height,0]);
             x.domain([this.startDate,this.endDate]);
             y.domain([0,d3.max(this.aggregateTweets, d => this.stackSelect.max(d))]);
             return { x, y };

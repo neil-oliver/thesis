@@ -120,10 +120,10 @@
           <g :transform="'translate(' + margin.left + ',' + margin.top + ')'">
             <g v-for="(row, i) in stack">
               <rect v-for="(block, index) in stack[i]" @mouseover="tweetTooltip(block.data.values[index])" @mouseout='tooltipVisible = false'
-                :height="stackScale.y(block[1]-block[0])"
+                :height="stackScale.y(block[0]) - stackScale.y(block[1])"
                 :width="width/aggregateTweets.length"
                 :x="stackScale.x(new Date(block.data.key))"
-                :y="height-stackScale.y(block[1])"
+                :y="stackScale.y(block[1])"
                 fill="#8addff"
                 stroke="#8addff"
                 :fill-opacity="i % 2 ? 0.2 : 0.6"
