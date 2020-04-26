@@ -1,4 +1,4 @@
 # What Makes Twitter Influential?
-## AN ANALYSIS OF TWITTER CONTENT, USER BEHAVIOR, AND CORRELATION TO BITCOIN MARKET VALUE
+## An analysis of Twitter content, user behavior, and correlation to Bitcoin market value.
 
 ![](./preview.png)
