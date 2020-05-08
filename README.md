@@ -10,7 +10,11 @@
 - [Planning and Development](./planning) (separate page)
 
 ## Abstract
-Coming Soon!
+Bitcoin’s volatile price fluctuations can be linked to its perceived future value, potential use cases & concerns over longevity and legislation. Public discussions on social media can serve as a platform to gain information on Bitcoin from a wide audience, from amateurs to professionals, therefore influencing public opinion and Bitcoin trading activity. 
+  
+This project dissects the user behavior and content of Twitter to investigate which elements have the strongest correlation to changes in Bitcoin market value. Evaluating a body of 100,000 tweets over a period of one week, volume data of both tweet generation and user interactions is combined with sentiment analysis to create a series of interactive exploratory visualizations. 
+  
+The visualizations present comparisons of different methods of user interactions, including retweets, likes and comments and allows filtering to remove data that may be deemed uninfluential before aggregated sentiment analysis takes place. During sentiment analysis, weighted models allow for the balance to be shifted to give preference to the opinions of users with a high follower count, or messages with a high level of interaction. As a final stage, time delay between online discussions and Bitcoin trading activity is explored and accounted. 
   
 ## Screen Captures
 ![](./preview.png)
