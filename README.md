@@ -8,6 +8,14 @@
 ![](./4.png)
 ![](./5.png)
 
+## Future Developments / Support Request
+This project provides a useful insight into the affects of different weighted models and filterings on correlation strength to Bitcoin value. 
+  
+It currently uses data scraped from the standard (free) Twitter API stream, which is limited both in scope of Tweets and the information provided for each tweet (such as missing comment data).
+
+To expand the project further, access to additional Twitter data is needed. Any assistance in gaining access to this information could exand the project beyong the current 5 day limit (potentially viewing affects over a period of a year) and provide more accurate outcomes.
+
+Please [contact me](mailto:neiloliverphoto@gmail.com) if you can be of any assitance and would like to collaborate on this project. 
 
 ## Acknowledgements
 This project was completed as part of the 2020 Masters in Data Visualization program at Parsons School of Design, NYC. You can view all of the incredible thesis projects [HERE](https://parsons.nyc/thesis-2020/).  
