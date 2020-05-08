@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1381" height="540" viewBox="0 0 1381 540">
+  <g id="Group_36" data-name="Group 36" transform="translate(-384 -170)">
+    <g id="test" transform="translate(550.245 301)">
+      <path id="Path_42" data-name="Path 42" d="M0,239.711C166.668,124.856,333.081,10,499.75,10c89.843,0,179.685,114.856,269.528,229.711H0Z" transform="translate(0 15.523)" fill="rgba(255,200,100,0.4)" stroke="#ffc864" stroke-width="3"/>
+      <path id="Path_43" data-name="Path 43" d="M21.3,239.711C186.947,124.856,352.595,10,518.242,10,658.876,10,799.255,124.856,939.89,239.711H21.3Z" transform="translate(33.065 15.523)" fill="rgba(138,221,255,0.4)" stroke="#8addff" stroke-width="3"/>
+      <line id="Line_12" data-name="Line 12" y1="255" transform="translate(510.755 2)" fill="none" stroke="#bcbcbc" stroke-linecap="round" stroke-width="5"/>
+    </g>
+    <g id="Group_31" data-name="Group 31" transform="translate(541.369 203.044)">
+      <path id="Path_44" data-name="Path 44" d="M0,0H778.131" transform="translate(0 0)" fill="none" stroke="#707070" stroke-linecap="square" stroke-width="1" stroke-dasharray="2 2"/>
+      <path id="Path_46" data-name="Path 46" d="M0,354.956V0" transform="translate(0 0)" fill="none" stroke="#707070" stroke-linecap="square" stroke-width="1" stroke-dasharray="2 2"/>
+      <path id="Path_45" data-name="Path 45" d="M0,354.956V0" transform="translate(778.131 0)" fill="none" stroke="#707070" stroke-linecap="square" stroke-width="1" stroke-dasharray="2 2"/>
+    </g>
+    <text id="Minimum_Bitcoin_Value_Difference" data-name="Minimum Bitcoin Value Difference" transform="translate(384 193)" fill="#707070" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">MINIMUM BITCOIN VALUE DIFFERENCE</tspan></text>
+    <text id="Maximum_Bitcoin_Value_Difference" data-name="Maximum Bitcoin Value Difference" transform="translate(1140 193)" fill="#707070" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">MAXIMUM BITCOIN VALUE DIFFERENCE</tspan></text>
+    <g id="Group_32" data-name="Group 32" transform="translate(600.5 567.5)">
+      <line id="Line_13" data-name="Line 13" x2="926" transform="translate(0 116.761)" fill="none" stroke="#707070" stroke-linecap="square" stroke-width="1" stroke-dasharray="2"/>
+      <line id="Line_14" data-name="Line 14" y2="116.761" stroke-dasharray="2" stroke="#707070" stroke-linecap="square" stroke-width="1" fill="none"/>
+      <line id="Line_15" data-name="Line 15" y2="116.761" transform="translate(926)" fill="none" stroke="#707070" stroke-linecap="square" stroke-width="1" stroke-dasharray="2"/>
+    </g>
+    <rect id="Rectangle_7" data-name="Rectangle 7" width="1170" height="41" transform="translate(475 585)" fill="#fff"/>
+    <text id="Minimum_Sentiment" data-name="Minimum Sentiment" transform="translate(509 705)" fill="#707070" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">MINIMUM SENTIMENT</tspan></text>
+    <g id="Group_33" data-name="Group 33" transform="translate(274.02 -76)">
+      <line id="Line_13-2" data-name="Line 13" x2="1077.718" transform="translate(231.5 667.5)" fill="none" stroke="#707070" stroke-linecap="square" stroke-width="3"/>
+      <line id="Line_14-2" data-name="Line 14" y2="24" transform="translate(231.5 643.5)" fill="none" stroke="#707070" stroke-linecap="square" stroke-width="3"/>
+      <line id="Line_15-2" data-name="Line 15" y2="24" transform="translate(1309.218 643.5)" fill="none" stroke="#707070" stroke-linecap="square" stroke-width="3"/>
+      <line id="Line_19" data-name="Line 19" y2="11" transform="translate(786.761 656.5)" fill="none" stroke="#707070" stroke-linecap="square" stroke-width="3"/>
+    </g>
+    <text id="Maximum_Sentiment" data-name="Maximum Sentiment" transform="translate(1433 705)" fill="#707070" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">MAXIMUM SENTIMENT</tspan></text>
+    <text id="_-1_Negative_Sentiment" data-name="-1 (Negative) Sentiment" transform="translate(407 616)" fill="#707070" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">-1 (NEGATIVE) SENTIMENT</tspan></text>
+    <text id="_1_Positive_Sentiment" data-name="+1 (Positive) Sentiment" transform="translate(1483 616)" fill="#707070" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">+1 (POSITIVE) SENTIMENT</tspan></text>
+    <text id="_0_Neutral_Sentiment" data-name="0 (Neutral) Sentiment" transform="translate(970 616)" fill="#707070" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">0 (NEUTRAL) SENTIMENT</tspan></text>
+    <rect id="Rectangle_8" data-name="Rectangle 8" width="883" height="42" transform="translate(451 243)" fill="#fff"/>
+    <text id="Whole_Graph" data-name="Whole Graph" transform="translate(1007 267)" fill="#bcbcbc" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">WHOLE GRAPH</tspan></text>
+    <text id="Per_Time_Period" data-name="Per Time Period" transform="translate(861 191)" fill="#bcbcbc" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">PER TIME PERIOD</tspan></text>
+    <text id="Minimum_Bitcoin_Value_Difference-2" data-name="Minimum Bitcoin Value Difference" transform="translate(384 267)" fill="#707070" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">MINIMUM BITCOIN VALUE DIFFERENCE</tspan></text>
+    <text id="Maximum_Bitcoin_Value_Difference-2" data-name="Maximum Bitcoin Value Difference" transform="translate(1403 266)" fill="#707070" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">MAXIMUM BITCOIN VALUE DIFFERENCE</tspan></text>
+    <g id="Group_35" data-name="Group 35" transform="translate(274.02 -366)">
+      <line id="Line_13-3" data-name="Line 13" x2="1077.718" transform="translate(231.5 643.5)" fill="none" stroke="#707070" stroke-linecap="square" stroke-width="3"/>
+      <line id="Line_14-3" data-name="Line 14" y1="29.935" transform="translate(231.5 643.5)" fill="none" stroke="#707070" stroke-linecap="square" stroke-width="3"/>
+      <line id="Line_15-3" data-name="Line 15" y1="29.935" transform="translate(1309.218 643.5)" fill="none" stroke="#707070" stroke-linecap="square" stroke-width="3"/>
+      <line id="Line_19-2" data-name="Line 19" y1="11" transform="translate(786.761 643.5)" fill="none" stroke="#707070" stroke-linecap="square" stroke-width="3"/>
+    </g>
+    <line id="Line_20" data-name="Line 20" x2="1078" transform="translate(505.5 560.5)" fill="none" stroke="#bcbcbc" stroke-linecap="round" stroke-width="5"/>
+    <line id="Line_21" data-name="Line 21" x2="73" transform="translate(753.5 185.5)" fill="none" stroke="#bcbcbc" stroke-width="1"/>
+    <line id="Line_22" data-name="Line 22" x2="73" transform="translate(1044.5 185.5)" fill="none" stroke="#bcbcbc" stroke-width="1"/>
+    <line id="Line_23" data-name="Line 23" x2="222" transform="translate(762.5 259.5)" fill="none" stroke="#bcbcbc" stroke-width="1"/>
+    <line id="Line_24" data-name="Line 24" x2="222" transform="translate(1168.5 259.5)" fill="none" stroke="#bcbcbc" stroke-width="1"/>
+  </g>
+</svg>

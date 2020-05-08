@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="275" height="230.759" viewBox="0 0 275 230.759">
+  <g id="Group_36" data-name="Group 36" transform="translate(-661 -1816.241)">
+    <g id="Group_19" data-name="Group 19" transform="translate(661.386 1884.692)">
+      <g id="Group_8" data-name="Group 8" transform="translate(0 18.759)">
+        <path id="Path_11" data-name="Path 11" d="M1006.171,1822.891V1928.31h240.614" transform="translate(-972.171 -1822.891)" fill="none" stroke="#707070" stroke-width="1"/>
+        <text id="value" transform="translate(-0.386 79.549) rotate(-90)" fill="#d3951f" font-size="18" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700" letter-spacing="0.02em"><tspan x="0" y="18">value</tspan></text>
+        <text id="Time" transform="translate(136.614 121.549)" fill="#d3951f" font-size="18" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700" letter-spacing="0.02em"><tspan x="0" y="18">Time</tspan></text>
+      </g>
+      <g id="Group_18" data-name="Group 18" transform="translate(72.891)">
+        <g id="Group_10" data-name="Group 10" transform="translate(0 26.6)">
+          <rect id="Rectangle_8" data-name="Rectangle 8" width="13" height="53" transform="translate(-0.278 8.708)" fill="#fec316"/>
+          <path id="Path_13" data-name="Path 13" d="M849,1825.767V1899.2" transform="translate(-842.784 -1825.767)" fill="none" stroke="#fdc515" stroke-width="1"/>
+        </g>
+        <g id="Group_11" data-name="Group 11" transform="translate(32.208 11.301)">
+          <rect id="Rectangle_9" data-name="Rectangle 9" width="13" height="27" transform="translate(-0.485 20.007)" fill="#fec316"/>
+          <path id="Path_14" data-name="Path 14" d="M849,1825.767v54.418" transform="translate(-842.784 -1825.767)" fill="none" stroke="#fdc515" stroke-width="1"/>
+        </g>
+        <g id="Group_12" data-name="Group 12" transform="translate(67.241 40.119)">
+          <rect id="Rectangle_10" data-name="Rectangle 10" width="12" height="34" transform="translate(0.482 8.189)" fill="#fec316"/>
+          <path id="Path_15" data-name="Path 15" d="M849,1825.767v54.418" transform="translate(-842.784 -1825.767)" fill="none" stroke="#fdc515" stroke-width="1"/>
+        </g>
+        <g id="Group_13" data-name="Group 13" transform="translate(90.408 40.119)">
+          <rect id="Rectangle_11" data-name="Rectangle 11" width="12" height="16" transform="translate(0.315 5.189)" fill="#fec316"/>
+          <path id="Path_16" data-name="Path 16" d="M849,1825.767v27.209" transform="translate(-842.784 -1825.767)" fill="none" stroke="#fdc515" stroke-width="1"/>
+        </g>
+        <g id="Group_14" data-name="Group 14" transform="translate(115.835 34.468)">
+          <rect id="Rectangle_12" data-name="Rectangle 12" width="13" height="43" transform="translate(-0.113 18.84)" fill="#fec316"/>
+          <path id="Path_17" data-name="Path 17" d="M850.725,1825.767v65.561" transform="translate(-844.509 -1825.767)" fill="none" stroke="#fdc515" stroke-width="1"/>
+        </g>
+        <g id="Group_15" data-name="Group 15" transform="translate(141.262)">
+          <rect id="Rectangle_13" data-name="Rectangle 13" width="12" height="61" transform="translate(0.46 7.308)" fill="#fec316"/>
+          <path id="Path_18" data-name="Path 18" d="M850.725,1825.767v86.1" transform="translate(-844.509 -1825.767)" fill="none" stroke="#fdc515" stroke-width="1"/>
+        </g>
+        <path id="Path_12" data-name="Path 12" d="M849,1863.431s16.051-21.575,32.346-17.355,26.722,25.049,31.367,23.823,20.046-17.033,26.889-15.427,13.949,25.646,23.319,22.5,22.641-45.46,26.564-45.46" transform="translate(-842.784 -1801.667)" fill="none" stroke="#c38e00" stroke-width="1" stroke-dasharray="5"/>
+      </g>
+    </g>
+    <text id="Bitcoin_value" data-name="Bitcoin value" transform="translate(689.504 1816.241)" fill="#d3951f" font-size="25" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700" letter-spacing="0.02em"><tspan x="39.162" y="24">Bitcoin value</tspan></text>
+  </g>
+</svg>

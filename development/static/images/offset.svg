@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="318" height="169" viewBox="0 0 318 169">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1" data-name="Rectangle 1" width="318" height="169" transform="translate(1346 474)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="base" width="343" height="280" transform="translate(16 54)" fill="#fff"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2699fb"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fbca26"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_1" data-name="Group 1" transform="translate(-1346 -474)">
+    <g id="Mask_Group_1" data-name="Mask Group 1" clip-path="url(#clip-path)">
+      <g id="card" transform="translate(1305 325)">
+        <rect id="base-3" data-name="base" width="343" height="280" transform="translate(16 75)" fill="#fff"/>
+        <g id="Mask_Group_11" data-name="Mask Group 11" transform="translate(0 21)" clip-path="url(#clip-path-2)">
+          <path id="Path_214" data-name="Path 214" d="M2471.761,1054.961c63.629-1.349,73.8,145.043,118.367,145.043s45.109-61.267,86.105-61.267c33.437,0,33.144,37.288,68.578,37.288s27.631-47.9,59.816-47.9,19.432,145.9,19.432,145.9H2411.051S2408.132,1056.31,2471.761,1054.961Z" transform="translate(-2432.964 -910.928)" opacity="0.5" fill="url(#linear-gradient)"/>
+        </g>
+        <g id="Ellipse_242" data-name="Ellipse 242" transform="translate(227 242)" fill="#2699fb" stroke="#fff" stroke-width="3">
+          <circle cx="7" cy="7" r="7" stroke="none"/>
+          <circle cx="7" cy="7" r="5.5" fill="none"/>
+        </g>
+      </g>
+      <g id="card-2" data-name="card" transform="translate(1330 325)" opacity="0.479">
+        <rect id="base-4" data-name="base" width="343" height="280" transform="translate(16 75)" fill="#fff"/>
+        <g id="Mask_Group_11-2" data-name="Mask Group 11" transform="translate(0 21)" clip-path="url(#clip-path-2)">
+          <path id="Path_214-2" data-name="Path 214" d="M2471.761,1054.961c63.629-1.349,73.8,145.043,118.367,145.043s45.109-61.267,86.105-61.267c33.437,0,33.144,37.288,68.578,37.288s27.631-47.9,59.816-47.9,19.432,145.9,19.432,145.9H2411.051S2408.132,1056.31,2471.761,1054.961Z" transform="translate(-2432.964 -910.928)" opacity="0.5" fill="url(#linear-gradient-2)"/>
+        </g>
+        <g id="Ellipse_242-2" data-name="Ellipse 242" transform="translate(227 242)" fill="#fbd226" stroke="#fff" stroke-width="3">
+          <circle cx="7" cy="7" r="7" stroke="none"/>
+          <circle cx="7" cy="7" r="5.5" fill="none"/>
+        </g>
+      </g>
+    </g>
+    <line id="Line_1" data-name="Line 1" x2="16" transform="translate(1543.5 574.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="1 1" opacity="0.652"/>
+    <text id="_" data-name="?" transform="translate(1549 569)" fill="#707070" font-size="10" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="0" y="0">?</tspan></text>
+  </g>
+</svg>

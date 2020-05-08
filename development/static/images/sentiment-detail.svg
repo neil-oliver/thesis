@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="520" height="322" viewBox="0 0 520 322">
+  <defs>
+    <clipPath id="clip-path">
+      <circle id="Ellipse_1" data-name="Ellipse 1" cx="111.5" cy="111.5" r="111.5" transform="translate(807 402)" fill="none" stroke="#707070" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <circle id="Ellipse_4" data-name="Ellipse 4" cx="28.5" cy="28.5" r="28.5" transform="translate(827 437)" fill="none" stroke="#707070" stroke-width="5"/>
+    </clipPath>
+  </defs>
+  <g id="Group_11" data-name="Group 11" transform="translate(-807 -353)">
+    <g id="Mask_Group_1" data-name="Mask Group 1" clip-path="url(#clip-path)" style="isolation: isolate">
+      <g id="test" transform="translate(428 71.3)">
+        <line id="Line_1" data-name="Line 1" x2="564" transform="translate(250 450)" fill="none" stroke="#1369a3" stroke-width="2"/>
+        <g id="Group_1" data-name="Group 1">
+          <path id="Path_1" data-name="Path 1" d="M250,354.7h9.4v3.6h9.4V357h9.4v-.6h9.4v-1.5H297v1.3h18.8v1h9.4V357h9.4v4.1H344v1.1h9.4v-1.1h9.4v-6.4h9.4v5.5h9.4v-4.3H391v3.7h9.4V357h9.4v.2h9.4v-2.5h9.4v4.4H438V357h9.4v1.9h9.4v-2.5h9.4v4.3h9.4V357H485v.2h9.4v-.5h9.4V359h9.4v-1.2h9.4v-1.2H532v2.5h9.4v-1.8h9.4v-1.6h9.4v2.6h9.4V355H579v1.6h9.4v.2h9.4v5.4h9.4v-3.8h9.4V360H626v-1.7h9.4v-1.2h9.4v2.2h9.4v-3.9h9.4v.5H673v.8h9.4v1.9h9.4v-2.4h9.4v1.4h9.4v-1.3H720v.3h9.4v4h9.4v-3.2h9.4v-1.1h9.4v2.6H767v-3.1h9.4v-.3h9.4v3h9.4V357h9.4v1.1H814V522.7h0v3.2h-9.4v1.7h-9.4v-3.9h-9.4V525h-9.4v.1H767V522h-9.4v4.2h-9.4v-1.8h-9.4v-.3h-9.4V523H720v3h-9.4v-3h-9.4v.3h-9.4v.2h-9.4v.6H673v1.4h-9.4v-1.2h-9.4v-.6h-9.4V522h-9.4v-2.2H626v.7h-9.4v9.3h-9.4v-5.5h-9.4v1.2h-9.4V512H579v11.2h-9.4v-1.1h-9.4v1.1h-9.4v2.9h-9.4v-4.2H532v1.2h-9.4v1.4h-9.4v-1.9h-9.4v-1.3h-9.4V527H485v-3h-9.4v-1h-9.4v-4.1h-9.4v5.8h-9.4v-1.3H438v.2h-9.4v-3.8h-9.4v2.6h-9.4v4.3h-9.4v-4.6H391v5.4h-9.4V516.4h-9.4v10.5h-9.4V525h-9.4v-5.4H344v9h-9.4v-7.5h-9.4v2.5h-9.4v.6h-9.4v-4.4H297v4.8h-9.4v-.9h-9.4v-3.2h-9.4v.3h-9.4v2.8H250Z" fill="rgba(92,201,245,0.2)" stroke="#5cc9f5" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="Path_2" data-name="Path 2" d="M250,426.4h9.4V391.5h9.4v33.6h9.4v-5.9h9.4v-9.8H297v13.1h9.4v-9.6h9.4v-9.3h9.4v9.1h9.4v5.9H344v2.9h9.4v7.1h9.4V425h9.4v3.9h9.4v.6H391v2.2h9.4v-2.1h9.4v-9.9h9.4v12.2h9.4V436H438V412.3h9.4v1h9.4v8.6h9.4V414h9.4v13.3H485V344h9.4v74.7h9.4V427h9.4v.7h9.4v6.1H532v-4.7h9.4v2.8h9.4v6.4h9.4V419.4h9.4V415H579v18.6h9.4V380.7h9.4V434h9.4v1.9h9.4V427H626v10.3h9.4v1.6h9.4v-14h9.4v-1.1h9.4V420H673v15.9h9.4v-.8h9.4v-2.9h9.4V409.8h9.4v-4.1H720v26.5h9.4v5.6h9.4v-1h9.4v-2.1h9.4v2.9H767V422.9h9.4v-2.5h9.4v15.2h9.4v-.1h9.4V422.2H814v19.7h0v28.6h-9.4v-8.8h-9.4V479h-9.4v-8.5h-9.4V460.3H767v2.2h-9.4v13.7h-9.4V465.6h-9.4v1.5h-9.4v-.4H720V534h-9.4V470.3h-9.4v3.3h-9.4V462.1h-9.4v4.7H673v3.3h-9.4v5.7h-9.4v-3.5h-9.4v.8h-9.4v-7.9H626v2h-9.4V466h-9.4v9.1h-9.4v.5h-9.4V465.2H579V474h-9.4v-9h-9.4v9.1h-9.4v-5.4h-9.4v5.7H532v-8.7h-9.4v7h-9.4v9.2h-9.4v9.7h-9.4V493H485V468.2h-9.4v53.1h-9.4V591h-9.4V493.5h-9.4V474.3H438v-4.4h-9.4v-1.2h-9.4v13.4h-9.4v-6.5h-9.4V469H391v4.2h-9.4v14.9h-9.4v14.3h-9.4V480.3h-9.4V465.7H344v28.7h-9.4V480.5h-9.4V465.2h-9.4v29.4h-9.4V481H297v-5.4h-9.4v30.6h-9.4V475.4h-9.4v19.1h-9.4v22.4H250Z" fill="rgba(255,200,100,0.2)" stroke="#fccd47" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="Path_3" data-name="Path 3" d="M250,416.6h9.4v61.5h9.4V449.8h9.4v10.7h9.4V409.9H297V408h9.4v35.4h9.4v31.9h9.4V469h9.4V405.2H344v76.7h9.4v-8.7h9.4V420.8h9.4v33.9h9.4V410.9H391v42.7h9.4V379.3h9.4v66.5h9.4V405.2h9.4V400H438V508.4h9.4V460.5h9.4V387.4h9.4v38h9.4v47.8H485v17.5h9.4V369.4h9.4v81h9.4v-3h9.4v21.1H532v-54h9.4v5.4h9.4V371h9.4V483.6h9.4V469.7H579V435.6h9.4v27.1h9.4v-.9h9.4v23.8h9.4V499H626V400h9.4v49.8h9.4V409.6h9.4V427h9.4v5.5H673V364.3h9.4V424h9.4v92.5h9.4V503.2h9.4V449.5H720V439h9.4v12h9.4v11.3h9.4v-8.1h9.4v.5H767v15h9.4V442.8h9.4V494h9.4V418.5h9.4v38.2H814V450" fill="none" stroke="#5cc9f5" stroke-width="2"/>
+          <path id="Path_4" data-name="Path 4" d="M250,458.4h9.4V447.7h9.4v10.6h9.4v-3.7h9.4v-4.8H297V444h9.4v7.5h9.4V446h9.4v.8h9.4V455H344V444.1h9.4v8.1h9.4v3.5h9.4v5.4h9.4V452H391v2.8h9.4V444.2h9.4v-2.9h9.4v11h9.4v.1H438V439.1h9.4v2.2h9.4v39.1h9.4V459h9.4V443.4H485v9h9.4v-7.7h9.4V452h9.4v-6.5h9.4v7.8H532v-3.5h9.4v3.9h9.4v.4h9.4v-4.3h9.4v-8.5H579v10.5h9.4V444h9.4v11.9h9.4V452h9.4v-5.9H626v8.7h9.4v2.5h9.4v-7.6h9.4V456h9.4v-7.9H673V450h9.4v1.1h9.4v1.4h9.4v-4.3h9.4v1.7H720V455h9.4v-6.3h9.4v-.2h9.4v2.9h9.4V449H767v.8h9.4v-6.3h9.4v8.2h9.4v.8h9.4v-5.6H814V406.1" fill="none" stroke="#ffc864" stroke-width="2"/>
+        </g>
+      </g>
+      <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(807 402)" fill="none" stroke="#707070" stroke-width="1">
+        <circle cx="111.5" cy="111.5" r="111.5" stroke="none"/>
+        <circle cx="111.5" cy="111.5" r="111" fill="none"/>
+      </g>
+    </g>
+    <g id="Mask_Group_2" data-name="Mask Group 2" transform="translate(260 5)" clip-path="url(#clip-path-2)" style="isolation: isolate">
+      <g id="test-2" data-name="test" transform="translate(428 71.3)">
+        <line id="Line_2" data-name="Line 2" x2="564" transform="translate(250 450)" fill="none" stroke="#1369a3" stroke-width="2"/>
+        <g id="Group_2" data-name="Group 2" transform="translate(-572.011 -250.508)">
+          <path id="Path_6" data-name="Path 6" d="M250,509.97h18.933v-70.3h18.934v67.677H306.8V495.468h18.934V475.729h18.933v26.386H363.6V482.779h18.934V464.047h18.933v18.329H420.4V494.26h18.934V500.1h18.933v14.3H477.2V507.15h18.934v7.855h18.933v1.209H534v4.431h18.933v-4.23h18.933v-19.94H590.8v24.573h18.933v8.258H628.67V481.57H647.6v2.014h18.933v17.322H685.47V484.994H704.4v26.789h18.934V344h18.933V494.461H761.2v16.718h18.934v1.41h18.934v12.287H818v-9.467h18.934v5.64h18.934v12.891h18.934V495.871h18.934v-8.863h18.934v37.464h18.934V417.921h18.934V525.278h18.934v3.827h18.933V511.179h18.934v20.746h18.934v3.223h18.933v-28.2h18.934v-2.216h18.933v-7.654h18.934v32.026h18.933v-1.611h18.934v-5.841h18.933V476.535h18.934v-8.258h18.934v53.376h18.933v11.28h18.934v-2.014h18.933v-4.23h18.934v5.841h18.933V502.92h18.934v-5.035h18.933V528.5h18.934v-.2h18.934V501.511h18.934v39.68h0V598.8h-18.934V581.072h-18.934v34.846H1329.21V598.8h-18.933V578.252h-18.935v4.431h-18.933v27.595h-18.934V588.927h-18.934v3.021h-18.934v-.806h-18.933V726.7h-18.933v-128.3h-18.934v6.647h-18.933V581.877h-18.934v9.467h-18.933v6.647h-18.933v11.481H1064.14v-7.05h-18.933v1.611h-18.934V588.121H1007.34v4.028H988.406v-2.417H969.473v18.329H950.539v1.007H931.606V588.121H912.672v17.725H893.739V587.718H874.805v18.329H855.872V595.171H836.938v11.481H818V589.128H799.071v14.1H780.138v18.531H761.2V641.3H742.271v2.82H723.337V594.164H704.4V701.118H685.47v140.39H666.537V645.123H647.6V606.451H628.67v-8.862H609.736v-2.417H590.8v26.99H571.87V609.069H552.936V595.775H534v8.46H515.069v30.011H496.135v28.8H477.2V618.536H458.268V589.128H439.335v57.808H420.4v-28H401.468V588.121H382.535v59.217H363.6V619.946H344.668V609.069H325.734V670.7H306.8V608.666H287.867v38.471H268.934v45.118H250Z" fill="rgba(255,200,100,0.2)" stroke="#fccd47" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="Path_7" data-name="Path 7" d="M250,469.643h18.933V593.516h18.934v-57H306.8v21.552h18.934V456.148h18.933v-3.827H363.6v71.3h18.934v64.253h18.933V575.187H420.4V446.681h18.934V601.17h18.933V583.647H477.2V478.1h18.934v68.281h18.933V458.162H534v86.006h18.933V394.513h18.933V528.458H590.8V446.681h18.933V436.207H628.67V654.546H647.6v-96.48h18.933V410.828H685.47v76.54H704.4v96.279h18.934V618.9h18.933V374.572H761.2v163.15h18.934V531.68h18.934v42.5H818V465.413h18.934V476.29h18.934V377.8h18.934v226.8h18.934v-28h18.934V507.913h18.934V562.5h18.934v-1.813h18.934v47.938h18.933v26.99h18.934V436.207h18.934V536.514h18.933V455.543h18.934V490.59h18.933v11.078h18.934V364.3h18.933V484.548h18.934V670.861h18.933V644.073h18.934V535.91h18.934V514.761h18.933v24.17h18.934v22.76h18.933V545.377h18.934v1.007h18.933V576.6h18.934V522.415h18.933V625.542h18.934V473.47h18.934v76.943h18.934v-13.5" transform="translate(0 20.588)" fill="none" stroke="#5cc9f5" stroke-width="2"/>
+          <path id="Path_8" data-name="Path 8" d="M250,511.443h18.933V489.891h18.934v21.351H306.8v-7.453h18.934v-9.668h18.933V482.438H363.6v15.106h18.934V486.467h18.933v1.611H420.4v16.516h18.934V482.64h18.933v16.315H477.2V506h18.934v10.877h18.933V498.552H534v5.64h18.933V482.841h18.933V477H590.8v22.156h18.933v.2H628.67V472.569H647.6V477h18.933v78.755H685.47v-43.1H704.4V481.23h18.934v18.128h18.933V483.848H761.2v14.7h18.934V485.459h18.934V501.17H818v-7.05h18.934v7.855h18.934v.806h18.934v-8.661h18.934V477h18.934v21.149h18.934V482.438h18.934v23.969h18.934v-7.855h18.933V486.668h18.934v17.524h18.934v5.035h18.933V493.919h18.934v12.689h18.933V490.7h18.934v3.827h18.933v2.216h18.934v2.82h18.933V490.9h18.934v3.424h18.934v10.272h18.933V491.905h18.934v-.4h18.933v5.841h18.934v-4.834h18.933v1.611h18.934V481.431h18.933v16.516h18.934v1.611h18.934v-11.28h18.934V406.1" transform="translate(0 62.982)" fill="none" stroke="#ffc864" stroke-width="2"/>
+        </g>
+      </g>
+      <g id="Ellipse_3" data-name="Ellipse 3" transform="translate(827 437)" fill="none" stroke="#707070" stroke-width="1">
+        <circle cx="28.5" cy="28.5" r="28.5" stroke="none"/>
+        <circle cx="28.5" cy="28.5" r="28" fill="none"/>
+      </g>
+    </g>
+    <g id="Mask_Group_3" data-name="Mask Group 3" transform="translate(203 -84)" clip-path="url(#clip-path-2)" style="isolation: isolate">
+      <g id="test-3" data-name="test" transform="translate(428 71.3)">
+        <line id="Line_3" data-name="Line 3" x2="564" transform="translate(250 450)" fill="none" stroke="#1369a3" stroke-width="2"/>
+        <g id="Group_3" data-name="Group 3" transform="translate(-286.011 -101.508)">
+          <path id="Path_10" data-name="Path 10" d="M250,509.97h18.933v-70.3h18.934v67.677H306.8V495.468h18.934V475.729h18.933v26.386H363.6V482.779h18.934V464.047h18.933v18.329H420.4V494.26h18.934V500.1h18.933v14.3H477.2V507.15h18.934v7.855h18.933v1.209H534v4.431h18.933v-4.23h18.933v-19.94H590.8v24.573h18.933v8.258H628.67V481.57H647.6v2.014h18.933v17.322H685.47V484.994H704.4v26.789h18.934V344h18.933V494.461H761.2v16.718h18.934v1.41h18.934v12.287H818v-9.467h18.934v5.64h18.934v12.891h18.934V495.871h18.934v-8.863h18.934v37.464h18.934V417.921h18.934V525.278h18.934v3.827h18.933V511.179h18.934v20.746h18.934v3.223h18.933v-28.2h18.934v-2.216h18.933v-7.654h18.934v32.026h18.933v-1.611h18.934v-5.841h18.933V476.535h18.934v-8.258h18.934v53.376h18.933v11.28h18.934v-2.014h18.933v-4.23h18.934v5.841h18.933V502.92h18.934v-5.035h18.933V528.5h18.934v-.2h18.934V501.511h18.934v39.68h0V598.8h-18.934V581.072h-18.934v34.846H1329.21V598.8h-18.933V578.252h-18.935v4.431h-18.933v27.595h-18.934V588.927h-18.934v3.021h-18.934v-.806h-18.933V726.7h-18.933v-128.3h-18.934v6.647h-18.933V581.877h-18.934v9.467h-18.933v6.647h-18.933v11.481H1064.14v-7.05h-18.933v1.611h-18.934V588.121H1007.34v4.028H988.406v-2.417H969.473v18.329H950.539v1.007H931.606V588.121H912.672v17.725H893.739V587.718H874.805v18.329H855.872V595.171H836.938v11.481H818V589.128H799.071v14.1H780.138v18.531H761.2V641.3H742.271v2.82H723.337V594.164H704.4V701.118H685.47v140.39H666.537V645.123H647.6V606.451H628.67v-8.862H609.736v-2.417H590.8v26.99H571.87V609.069H552.936V595.775H534v8.46H515.069v30.011H496.135v28.8H477.2V618.536H458.268V589.128H439.335v57.808H420.4v-28H401.468V588.121H382.535v59.217H363.6V619.946H344.668V609.069H325.734V670.7H306.8V608.666H287.867v38.471H268.934v45.118H250Z" fill="rgba(255,200,100,0.2)" stroke="#fccd47" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="Path_12" data-name="Path 12" d="M250,511.443h18.933V489.891h18.934v21.351H306.8v-7.453h18.934v-9.668h18.933V482.438H363.6v15.106h18.934V486.467h18.933v1.611H420.4v16.516h18.934V482.64h18.933v16.315H477.2V506h18.934v10.877h18.933V498.552H534v5.64h18.933V482.841h18.933V477H590.8v22.156h18.933v.2H628.67V472.569H647.6V477h18.933v78.755H685.47v-43.1H704.4V481.23h18.934v18.128h18.933V483.848H761.2v14.7h18.934V485.459h18.934V501.17H818v-7.05h18.934v7.855h18.934v.806h18.934v-8.661h18.934V477h18.934v21.149h18.934V482.438h18.934v23.969h18.934v-7.855h18.933V486.668h18.934v17.524h18.934v5.035h18.933V493.919h18.934v12.689h18.933V490.7h18.934v3.827h18.933v2.216h18.934v2.82h18.933V490.9h18.934v3.424h18.934v10.272h18.933V491.905h18.934v-.4h18.933v5.841h18.934v-4.834h18.933v1.611h18.934V481.431h18.933v16.516h18.934v1.611h18.934v-11.28h18.934V406.1" transform="translate(0 62.982)" fill="none" stroke="#ffc864" stroke-width="2"/>
+        </g>
+      </g>
+      <g id="Ellipse_5" data-name="Ellipse 5" transform="translate(827 437)" fill="none" stroke="#707070" stroke-width="1">
+        <circle cx="28.5" cy="28.5" r="28.5" stroke="none"/>
+        <circle cx="28.5" cy="28.5" r="28" fill="none"/>
+      </g>
+    </g>
+    <g id="Mask_Group_4" data-name="Mask Group 4" transform="translate(260 92)" clip-path="url(#clip-path-2)" style="isolation: isolate">
+      <g id="test-4" data-name="test" transform="translate(481 156.3)">
+        <line id="Line_4" data-name="Line 4" x2="564" transform="translate(250 450)" fill="none" stroke="#1369a3" stroke-width="2"/>
+        <g id="Group_4" data-name="Group 4" transform="translate(-572.011 -250.508)">
+          <path id="Path_16" data-name="Path 16" d="M250,511.443h18.933V489.891h18.934v21.351H306.8v-7.453h18.934v-9.668h18.933V482.438H363.6v15.106h18.934V486.467h18.933v1.611H420.4v16.516h18.934V482.64h18.933v16.315H477.2V506h18.934v10.877h18.933V498.552H534v5.64h18.933V482.841h18.933V477H590.8v22.156h18.933v.2H628.67V472.569H647.6V477h18.933v78.755H685.47v-43.1H704.4V481.23h18.934v18.128h18.933V483.848H761.2v14.7h18.934V485.459h18.934V501.17H818v-7.05h18.934v7.855h18.934v.806h18.934v-8.661h18.934V477h18.934v21.149h18.934V482.438h18.934v23.969h18.934v-7.855h18.933V486.668h18.934v17.524h18.934v5.035h18.933V493.919h18.934v12.689h18.933V490.7h18.934v3.827h18.933v2.216h18.934v2.82h18.933V490.9h18.934v3.424h18.934v10.272h18.933V491.905h18.934v-.4h18.933v5.841h18.934v-4.834h18.933v1.611h18.934V481.431h18.933v16.516h18.934v1.611h18.934v-11.28h18.934V406.1" transform="translate(0 62.982)" fill="none" stroke="#ffc864" stroke-width="2"/>
+        </g>
+      </g>
+      <g id="Ellipse_7" data-name="Ellipse 7" transform="translate(827 437)" fill="none" stroke="#707070" stroke-width="1">
+        <circle cx="28.5" cy="28.5" r="28.5" stroke="none"/>
+        <circle cx="28.5" cy="28.5" r="28" fill="none"/>
+      </g>
+    </g>
+    <g id="Mask_Group_5" data-name="Mask Group 5" transform="translate(203 181)" clip-path="url(#clip-path-2)" style="isolation: isolate">
+      <g id="test-5" data-name="test" transform="translate(503 17.3)">
+        <g id="Group_5" data-name="Group 5" transform="translate(-571.011 -243.508)">
+          <path id="Path_17" data-name="Path 17" d="M250,354.7h18.933v7.251h18.934v-2.618H306.8v-1.208h18.934V355.1h18.933v2.618h37.867v2.014h18.933v-.4H420.4v8.258h18.934v2.216h18.933v-2.216H477.2V354.7h18.934v11.078h18.933v-8.661H534v7.453h18.933v-5.237h18.933v.4H590.8V354.7h18.933v8.863H628.67v-4.23H647.6v3.827h18.933v-5.035H685.47v8.661H704.4v-7.452h18.934v.4h18.933v-1.007H761.2v4.633h18.934v-2.417h18.934v-2.417H818v5.035h18.934v-3.626h18.934v-3.223h18.934v5.237h18.934V355.3h18.934v3.223h18.934v.4h18.934v10.877h18.934v-7.654h18.933v3.223h18.934v-3.424h18.934v-2.417h18.933v4.431h18.934V356.11h18.933v1.007h18.934v1.611h18.933v3.827h18.934v-4.834h18.933v2.82h18.934v-2.618h18.934v.6h18.933v8.057h18.934v-6.445h18.933v-2.216h18.934v5.237h18.933v-6.244h18.934v-.6h18.933v6.043h18.934v-3.021h18.934v2.216h18.934V693.086h0v6.445h-18.934v3.424h-18.934V695.1H1329.21v2.618h-18.933v.2h-18.935v-6.244h-18.933v8.46h-18.934V696.51h-18.934v-.6h-18.934V693.69h-18.933v6.043h-18.933V693.69h-18.934v.6h-18.933v.4h-18.934v1.208h-18.933v2.82h-18.933v-2.417H1064.14V695.1h-18.933v-3.424h-18.934v-4.431H1007.34v1.41H988.406v18.732H969.473V696.309H950.539v2.417H931.606V671.534H912.672v22.559H893.739v-2.216H874.805v2.216H855.872v5.841H836.938v-8.46H818v2.417H799.071v2.82H780.138v-3.827H761.2v-2.618H742.271v11.481H723.337V695.7H704.4V693.69H685.47v-8.258H666.537v11.682H647.6V694.5H628.67v.4H609.736v-7.654H590.8v5.237H571.87v8.661H552.936v-9.265H534v10.877H515.069V680.4H496.135v21.149H477.2v-3.827H458.268V686.842H439.335V704.97H420.4V689.863H401.468V694.9H382.535v1.209H363.6v-8.863H344.668v9.668H325.734V695.1H306.8v-6.445H287.867v.6H268.934v5.64H250Z" transform="translate(0 10.852)" fill="rgba(92,201,245,0.2)" stroke="#5cc9f5" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="Path_18" data-name="Path 18" d="M250,509.97h18.933v-70.3h18.934v67.677H306.8V495.468h18.934V475.729h18.933v26.386H363.6V482.779h18.934V464.047h18.933v18.329H420.4V494.26h18.934V500.1h18.933v14.3H477.2V507.15h18.934v7.855h18.933v1.209H534v4.431h18.933v-4.23h18.933v-19.94H590.8v24.573h18.933v8.258H628.67V481.57H647.6v2.014h18.933v17.322H685.47V484.994H704.4v26.789h18.934V344h18.933V494.461H761.2v16.718h18.934v1.41h18.934v12.287H818v-9.467h18.934v5.64h18.934v12.891h18.934V495.871h18.934v-8.863h18.934v37.464h18.934V417.921h18.934V525.278h18.934v3.827h18.933V511.179h18.934v20.746h18.934v3.223h18.933v-28.2h18.934v-2.216h18.933v-7.654h18.934v32.026h18.933v-1.611h18.934v-5.841h18.933V476.535h18.934v-8.258h18.934v53.376h18.933v11.28h18.934v-2.014h18.933v-4.23h18.934v5.841h18.933V502.92h18.934v-5.035h18.933V528.5h18.934v-.2h18.934V501.511h18.934v39.68h0V598.8h-18.934V581.072h-18.934v34.846H1329.21V598.8h-18.933V578.252h-18.935v4.431h-18.933v27.595h-18.934V588.927h-18.934v3.021h-18.934v-.806h-18.933V726.7h-18.933v-128.3h-18.934v6.647h-18.933V581.877h-18.934v9.467h-18.933v6.647h-18.933v11.481H1064.14v-7.05h-18.933v1.611h-18.934V588.121H1007.34v4.028H988.406v-2.417H969.473v18.329H950.539v1.007H931.606V588.121H912.672v17.725H893.739V587.718H874.805v18.329H855.872V595.171H836.938v11.481H818V589.128H799.071v14.1H780.138v18.531H761.2V641.3H742.271v2.82H723.337V594.164H704.4V701.118H685.47v140.39H666.537V645.123H647.6V606.451H628.67v-8.862H609.736v-2.417H590.8v26.99H571.87V609.069H552.936V595.775H534v8.46H515.069v30.011H496.135v28.8H477.2V618.536H458.268V589.128H439.335v57.808H420.4v-28H401.468V588.121H382.535v59.217H363.6V619.946H344.668V609.069H325.734V670.7H306.8V608.666H287.867v38.471H268.934v45.118H250Z" fill="rgba(255,200,100,0.2)" stroke="#fccd47" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="Path_19" data-name="Path 19" d="M250,469.643h18.933V593.516h18.934v-57H306.8v21.552h18.934V456.148h18.933v-3.827H363.6v71.3h18.934v64.253h18.933V575.187H420.4V446.681h18.934V601.17h18.933V583.647H477.2V478.1h18.934v68.281h18.933V458.162H534v86.006h18.933V394.513h18.933V528.458H590.8V446.681h18.933V436.207H628.67V654.546H647.6v-96.48h18.933V410.828H685.47v76.54H704.4v96.279h18.934V618.9h18.933V374.572H761.2v163.15h18.934V531.68h18.934v42.5H818V465.413h18.934V476.29h18.934V377.8h18.934v226.8h18.934v-28h18.934V507.913h18.934V562.5h18.934v-1.813h18.934v47.938h18.933v26.99h18.934V436.207h18.934V536.514h18.933V455.543h18.934V490.59h18.933v11.078h18.934V364.3h18.933V484.548h18.934V670.861h18.933V644.073h18.934V535.91h18.934V514.761h18.933v24.17h18.934v22.76h18.933V545.377h18.934v1.007h18.933V576.6h18.934V522.415h18.933V625.542h18.934V473.47h18.934v76.943h18.934v-13.5" transform="translate(0 20.588)" fill="none" stroke="#5cc9f5" stroke-width="2"/>
+          <path id="Path_20" data-name="Path 20" d="M250,511.443h18.933V489.891h18.934v21.351H306.8v-7.453h18.934v-9.668h18.933V482.438H363.6v15.106h18.934V486.467h18.933v1.611H420.4v16.516h18.934V482.64h18.933v16.315H477.2V506h18.934v10.877h18.933V498.552H534v5.64h18.933V482.841h18.933V477H590.8v22.156h18.933v.2H628.67V472.569H647.6V477h18.933v78.755H685.47v-43.1H704.4V481.23h18.934v18.128h18.933V483.848H761.2v14.7h18.934V485.459h18.934V501.17H818v-7.05h18.934v7.855h18.934v.806h18.934v-8.661h18.934V477h18.934v21.149h18.934V482.438h18.934v23.969h18.934v-7.855h18.933V486.668h18.934v17.524h18.934v5.035h18.933V493.919h18.934v12.689h18.933V490.7h18.934v3.827h18.933v2.216h18.934v2.82h18.933V490.9h18.934v3.424h18.934v10.272h18.933V491.905h18.934v-.4h18.933v5.841h18.934v-4.834h18.933v1.611h18.934V481.431h18.933v16.516h18.934v1.611h18.934v-11.28h18.934V406.1" transform="translate(0 62.982)" fill="none" stroke="#ffc864" stroke-width="2"/>
+        </g>
+      </g>
+      <g id="Ellipse_9" data-name="Ellipse 9" transform="translate(827 437)" fill="none" stroke="#707070" stroke-width="1">
+        <circle cx="28.5" cy="28.5" r="28.5" stroke="none"/>
+        <circle cx="28.5" cy="28.5" r="28" fill="none"/>
+      </g>
+    </g>
+    <g id="Ellipse_11" data-name="Ellipse 11" transform="translate(915 583)" fill="none" stroke="#707070" stroke-width="1">
+      <circle cx="11.5" cy="11.5" r="11.5" stroke="none"/>
+      <circle cx="11.5" cy="11.5" r="11" fill="none"/>
+    </g>
+    <line id="Line_5" data-name="Line 5" x2="95" y2="46" transform="translate(935.5 600.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="1 2"/>
+    <g id="Group_7" data-name="Group 7" transform="translate(1162.233 456.129)">
+      <g id="Group_6" data-name="Group 6" transform="translate(0)">
+        <g id="Rectangle_5" data-name="Rectangle 5" transform="translate(-0.233 -0.129)" fill="#fff" stroke="#d1d1d1" stroke-width="1">
+          <rect width="165" height="29" rx="5" stroke="none"/>
+          <rect x="0.5" y="0.5" width="164" height="28" rx="4.5" fill="none"/>
+        </g>
+        <text id="Average_twitter_sentiment" data-name="Average twitter sentiment" transform="translate(9.767 17.871)" fill="#707070" font-size="10" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">AVERAGE TWITTER SENTIMENT</tspan></text>
+      </g>
+    </g>
+    <g id="Group_8" data-name="Group 8" transform="translate(1105.382 367)">
+      <g id="Group_6-2" data-name="Group 6" transform="translate(0)">
+        <g id="Rectangle_5-2" data-name="Rectangle 5" transform="translate(-0.382)" fill="#fff" stroke="#d1d1d1" stroke-width="1">
+          <rect width="147" height="29" rx="5" stroke="none"/>
+          <rect x="0.5" y="0.5" width="146" height="28" rx="4.5" fill="none"/>
+        </g>
+        <text id="High_Low_bitcoin_price" data-name="High / Low bitcoin price" transform="translate(11.618 18)" fill="#707070" font-size="10" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">HIGH / LOW BITCOIN PRICE</tspan></text>
+      </g>
+    </g>
+    <g id="Group_9" data-name="Group 9" transform="translate(1105 632.152)">
+      <g id="Group_6-3" data-name="Group 6" transform="translate(0)">
+        <g id="Rectangle_5-3" data-name="Rectangle 5" transform="translate(0 -0.152)" fill="#fff" stroke="#d1d1d1" stroke-width="1">
+          <rect width="176" height="29" rx="5" stroke="none"/>
+          <rect x="0.5" y="0.5" width="175" height="28" rx="4.5" fill="none"/>
+        </g>
+        <text id="High_low_twitter_sentiment" data-name="High / low twitter sentiment" transform="translate(11 17.848)" fill="#707070" font-size="10" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">HIGH / LOW TWITTER SENTIMENT</tspan></text>
+      </g>
+    </g>
+    <g id="Group_10" data-name="Group 10" transform="translate(1161.704 544.64)">
+      <g id="Rectangle_5-4" data-name="Rectangle 5" transform="translate(0.296 0.36)" fill="#fff" stroke="#d1d1d1" stroke-width="1">
+        <rect width="133" height="29" rx="5" stroke="none"/>
+        <rect x="0.5" y="0.5" width="132" height="28" rx="4.5" fill="none"/>
+      </g>
+      <text id="Average_bitcoin_price" data-name="Average bitcoin price" transform="translate(10.296 17.36)" fill="#707070" font-size="10" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">AVERAGE BITCOIN PRICE</tspan></text>
+    </g>
+    <g id="Ellipse_12" data-name="Ellipse 12" transform="translate(896 508)" fill="none" stroke="#707070" stroke-width="1">
+      <circle cx="11.5" cy="11.5" r="11.5" stroke="none"/>
+      <circle cx="11.5" cy="11.5" r="11" fill="none"/>
+    </g>
+    <g id="Ellipse_13" data-name="Ellipse 13" transform="translate(962 478)" fill="none" stroke="#707070" stroke-width="1">
+      <circle cx="11.5" cy="11.5" r="11.5" stroke="none"/>
+      <circle cx="11.5" cy="11.5" r="11" fill="none"/>
+    </g>
+    <g id="Ellipse_14" data-name="Ellipse 14" transform="translate(906 406)" fill="none" stroke="#707070" stroke-width="1">
+      <circle cx="11.5" cy="11.5" r="11.5" stroke="none"/>
+      <circle cx="11.5" cy="11.5" r="11" fill="none"/>
+    </g>
+    <line id="Line_6" data-name="Line 6" x2="168" y2="40" transform="translate(919.5 519.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="1 2"/>
+    <line id="Line_7" data-name="Line 7" y1="19" x2="102" transform="translate(985.5 470.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="1 2"/>
+    <line id="Line_8" data-name="Line 8" y1="33" x2="101" transform="translate(929.5 384.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="1 2"/>
+  </g>
+</svg>

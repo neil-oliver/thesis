@@ -1,0 +1,27 @@
+{
+  "name": "twitter-bitcoin-influence",
+  "version": "1.0.0",
+  "description": "AN ANALYSIS OF TWITTER CONTENT, USER BEHAVIOR, AND CORRELATION TO BITCOIN MARKET VALUE.",
+  "author": "neil oliver",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "d3": "^5.16.0",
+    "element-ui": "^2.13.1",
+    "gsap": "^3.2.6",
+    "lodash": "^4.17.15",
+    "nuxt": "^2.0.0",
+    "redirect-ssl": "^1.4.1",
+    "vue-scrollmagic": "^1.2.0",
+    "vue-tweet-embed": "^2.4.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/dotenv": "^1.4.1"
+  }
+}
