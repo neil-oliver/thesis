@@ -7,7 +7,7 @@
 - [Screen Captures](#screen-captures)
 - [Future Development](#future-developments--support-request)
 - [Acknowledgements](#acknowledgements)
-- [Planning and Development](./development)(separate page)
+- [Planning and Development](./planning) (separate page)
 
 ## Abstract
 Coming Soon!
