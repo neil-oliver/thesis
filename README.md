@@ -16,6 +16,8 @@ This project dissects the user behavior and content of Twitter to investigate wh
   
 The visualizations present comparisons of different methods of user interactions, including retweets, likes and comments and allows filtering to remove data that may be deemed uninfluential before aggregated sentiment analysis takes place. During sentiment analysis, weighted models allow for the balance to be shifted to give preference to the opinions of users with a high follower count, or messages with a high level of interaction. As a final stage, time delay between online discussions and Bitcoin trading activity is explored and accounted. 
   
+Rather than provide definitive answers, the project invites the user to explore the vast array of filtering, weighting and offset models to form their own conclusions and observations.  
+  
 ## Screen Captures
 ![](./preview.png)
 ![](./1.png)
