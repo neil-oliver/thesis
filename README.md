@@ -1,4 +1,5 @@
-# Is Twitter Feeding Bitcoin?
+# Is Twitter Feeding Bitcoin? 
+[VIEW PROJECT](http://neiloliver.co/influence)
 ## An analysis of Twitter content, user behavior, and correlation to Bitcoin market value.
   
 ### Table of Contents
@@ -10,7 +11,6 @@
 ## Abstract
 Coming Soon!
   
-[VIEW PROJECT](http://neiloliver.co/influence)
 ## Screen Captures
 ![](./preview.png)
 ![](./1.png)
