@@ -74,13 +74,14 @@ Axios
 
 ## Visualization Components
 ### Volume Visualization
-
+![](../1.png)
 ### Filtering Visulaization
-
+![](../2.png)
+![](../3.png)
 ### Sentiment Visualization
-
+![](../4.png)
 ### Correlation Visualization
-
+![](../5.png)
 ## Additional Custom Components
 ### Animate Number
 
