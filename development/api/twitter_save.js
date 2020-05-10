@@ -161,19 +161,21 @@ function processTweets(){
           tweet.sentiment = sentiResult.compound;
           
           //reduce tweet
-          let newTweet = {}
-          newTweet.created_at = tweet.created_at
-          newTweet.id_str = tweet.id_str
-          newTweet.user = {}
-          newTweet.user.followers_count = tweet.user.followers_count
-          newTweet.user.friends_count = tweet.user.friends_count
-          newTweet.user.verified = tweet.user.verified
-          newTweet.sentiment = tweet.sentiment
-          newTweet.retweet_count = tweet.retweet_count
-          newTweet.favorite_count = tweet.favorite_count
-          newTweet.reply_count = tweet.reply_count
-          newTweet.quote_count = tweet.quote_count
-          newTweet.interaction_count = tweet.reply_count + tweet.quote_count + tweet.favorite_count + tweet.retweet_count
+          let newTweet = {
+            created_at : tweet.created_at,
+            id_str : tweet.id_str,
+            user : {
+                followers_count : tweet.user.followers_count,
+                friends_count : tweet.user.friends_count,
+                verified : tweet.user.verified
+            },
+            sentiment : tweet.sentiment,
+            retweet_count : tweet.retweet_count,
+            favorite_count : tweet.favorite_count,
+            reply_count : tweet.reply_count,
+            quote_count : tweet.quote_count,
+            interaction_count : tweet.reply_count + tweet.quote_count + tweet.favorite_count + tweet.retweet_count
+        }
           
           if (!tweet.text.toLowerCase().includes('bitcoin') || !tweet.text.toLowerCase().includes('btc')){
             console.log('WARNING - Keyword not found in ' + tweet.text)

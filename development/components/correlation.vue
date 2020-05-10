@@ -37,6 +37,7 @@ export default {
   },
   methods:{
     getPearsonCorrelation (x, y) {
+        // code adapted from: https://memory.psych.mun.ca/tech/js/correlation.shtml
         var shortestArrayLength = 0;
           
         if(x.length == y.length) {
