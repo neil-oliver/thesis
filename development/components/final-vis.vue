@@ -9,7 +9,7 @@
 
     <svg width="100%" :height="svgHeight">
       <g :transform="'translate(' + margin.left + ',' + margin.top + ')'">
-        <g v-for="(d,i) in candlePathData" :key="i">
+        <g v-for="(d,i) in candlePathData" :key="d[0].date.toString()">
           <rect :x="priceScale.x(new Date(d[0].date))" y='0' :width='rectWidth' :height='height' :opacity="gradientColor(d,i)" fill="#23cf5f" />
           <path :d="candlePath(d)" stroke="#ffc400" stroke-width="2px" fill="none"/>
           <circle @mouseover="$emit('finalTooltip', {visible: true, index:i})" @mouseout="$emit('finalTooltip', {visible:false})"
@@ -76,6 +76,9 @@ export default {
   mounted(){
     this.svgWidth = this.$refs.finalviscontainer.offsetWidth
     this.svgHeight = this.$refs.finalviscontainer.offsetWidth*0.5
+    if (window.innerWidth < 768){
+      this.margin = {top: 20, left: 30, bottom: 20, right: 30 }
+    }
   },
   watch:{
     index(){

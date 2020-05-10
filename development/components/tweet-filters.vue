@@ -34,7 +34,7 @@
         <div class="button-group-label">Sentiment</div>
         <el-radio-group :value="sentiment" @input="$emit('update:sentiment',$event)" size="mini">
           <el-radio-button label="0">All</el-radio-button>
-          <el-radio-button label="0.5">Weak</el-radio-button>
+          <el-radio-button label="0.05">Weak</el-radio-button>
           <el-radio-button label="0.15">What the Scientists Use</el-radio-button>
           <el-radio-button label="0.5">Strong</el-radio-button>
           <el-radio-button label="0.8">Very Strong</el-radio-button>

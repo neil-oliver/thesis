@@ -1,7 +1,7 @@
 <template>
-<div class="progress-stage" v-on:click="handleClick">
+<div class="progress-stage">
     <span :class="{visible: show == true, desc:true}">{{el.textContent}}</span>
-    <span @mouseover="showDesc" @mouseout="showDesc" :class="{ progressfocus: checkpoint == true, ball:true }"></span>
+    <span v-on:click="handleClick" @mouseover="showDesc" @mouseout="showDesc" :class="{ progressfocus: checkpoint == true, ball:true }"></span>
 </div>
 </template>
 
@@ -51,6 +51,7 @@ export default {
         font-size:1.5em;
         font-weight: bold;
         opacity:0;
+        pointer-events: none;
     }
     .visible{
         opacity:1;
@@ -72,13 +73,13 @@ export default {
         transition: all 0.5s ease-in-out 0s;
     }
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 768px) {
         .ball{
             height: 10px;
             width: 10px;
         }
         .progress-stage{
-            padding:5px;
+            padding:0;
         }
     }
 </style>

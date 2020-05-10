@@ -193,9 +193,6 @@ a{
     color:black;
     font-weight: bold;
 }
-img{
-    padding:50px;
-}
 
 .subheading{
     padding-top:50px;
@@ -251,9 +248,21 @@ h4{
 
 /* Media Queries */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
     body {
       font-size: 80%;
+    }
+    #start-arrow{
+        display: none
+    }
+    .page{
+        height:auto;
+    }
+    svg text{
+        font-size:50%;
+    }
+    .el-main{
+        padding:5px;
     }
   }
 

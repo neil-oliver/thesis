@@ -24,9 +24,9 @@ export default {
   /*
   ** router base, needed for hosting on github
   */
-  // router: {
-  //   base: '/influence/'
-  // },
+  router: {
+    base: '/influence/'
+  },
   /*
   ** Customize the progress-bar color
   */

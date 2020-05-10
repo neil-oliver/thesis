@@ -131,7 +131,7 @@
               @volumeFocusUpdate="updateVolumeFocus"
               weight="tweets"
               main
-              :tweets="tweets" 
+              :tweets="allTweets" 
               :candles="hourAggregateCandles"/>
           </div>
         </el-col>
@@ -152,7 +152,7 @@
             <volume-vis
               @tooltip="processMouseover"
               weight="tweets" 
-              :tweets="tweets" 
+              :tweets="allTweets" 
               :selected="volumeFocus"
               :candles="hourAggregateCandles"/>
           </div>
@@ -162,7 +162,7 @@
             <volume-vis
               @tooltip="processMouseover"
               weight="followers" 
-              :tweets="tweets" 
+              :tweets="allTweets" 
               :selected="volumeFocus"
               :candles="hourAggregateCandles"/>
           </div>
@@ -172,7 +172,7 @@
             <volume-vis
               @tooltip="processMouseover"
               weight="likes" 
-              :tweets="tweets"
+              :tweets="allTweets"
               :selected="volumeFocus" 
               :candles="hourAggregateCandles"/>
           </div>
@@ -182,7 +182,7 @@
             <volume-vis
               @tooltip="processMouseover"
               weight="retweets"
-              :tweets="tweets" 
+              :tweets="allTweets" 
               :selected="volumeFocus"
               :candles="hourAggregateCandles"/>
           </div>

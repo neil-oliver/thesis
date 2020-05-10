@@ -1,10 +1,10 @@
 <template>
-  <div class="vis" id='sentiment' ref="sentimentviscontainer">
+  <div class="vis" ref="sentimentviscontainer">
     <el-checkbox size="mini" v-model="curve" label="Curve" border></el-checkbox>
     <el-checkbox size="mini" v-model="fixedHeight" label="Fixed Values" border></el-checkbox>
 
     <h6>{{title}}</h6>
-    <div id='correlation'>
+    <div>
       <svg width="100%" :height="svgHeight">
         <g :transform="'translate(' + margin.left + ',' + margin.top + ')'">
           <line :x1="0" :y1="sentimentScale.y(0)" :x2="width" :y2="sentimentScale.y(0)" style="stroke:rgb(19, 105, 163);stroke-width:2" />
@@ -77,7 +77,7 @@ export default {
   },
   data(){
     return{
-      margin: {top: 50, left: 100, bottom: 50, right: 100 },
+      margin: {top: 50, left: 50, bottom: 50, right: 50 },
       modCandles: [],
       candleStroke: "#ffc864",
       svgHeight : 400,
@@ -118,7 +118,9 @@ export default {
   mounted(){
     this.svgWidth = this.$refs.sentimentviscontainer.offsetWidth
     this.svgHeight = this.$refs.sentimentviscontainer.offsetWidth*0.5
-
+    if (window.innerWidth < 768){
+      this.margin = {top: 20, left: 30, bottom: 20, right: 30 }
+    }
   },
   computed:{
     start(){

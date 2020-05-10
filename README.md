@@ -8,6 +8,7 @@
 - [Future Development](#future-developments--support-request)
 - [Acknowledgements](#acknowledgements)
 - [Planning and Development](./planning) (separate page)
+- [Technical Documentation](./development) (separate page)
 
 ## Abstract
 Bitcoin’s volatile price fluctuations can be linked to its perceived future value, potential use cases & concerns over longevity and legislation. Public discussions on social media can serve as a platform to gain information on Bitcoin from a wide audience, from amateurs to professionals, therefore influencing public opinion and Bitcoin trading activity. 

@@ -82,7 +82,9 @@ export default {
   mounted(){
     this.svgWidth = this.$refs.volumeviscontainer.offsetWidth
     this.svgHeight = this.$refs.volumeviscontainer.offsetWidth*0.5
-
+    if (window.innerWidth < 768){
+        this.margin = {top: 20, left: 30, bottom: 20, right: 30 }
+    }
   },
   watch:{
     select(){
