@@ -97,7 +97,7 @@ The highlighter component allows for a word or phrase to be passed as well as a 
 ### Uncertainty
 [File](./components/uncertainty-tooltip.vue)  
 The uncertainty component makes use of the maximum and minimum values generated during aggregation to show th user the range of potental results and overlap. The mini visualization is used in conjunction with specific details of each data point, on the increase and decrease of Bitcoin value along with the sentiment of the user selected weighted model.
-![](./static/images/uncertainty.png)
+![](./static/images/uncertainty.svg)
 
 ### Twitter Tooltip
 [File](./components/twitter-tooltip.vue)  
