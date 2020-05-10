@@ -14,21 +14,27 @@
 
 ## Frameworks & Libraries
 **Application Type:** Server side rendered application  
-**Front End Framework:** NUXT / Vue.js  
-**UI Component Library:** Element-UI  
-**Data Structure:** MongoDB Atlas  
-**API:** Twitter API & Binance API  
-**Middleware:** Custom Node / Express middleware via NUXT serverMiddleware  
-**Visualization Library:** D3.js  
-**Additional Libraries:** ScrollMagic, Lodash, GSAP & Twitter-Widget  
+**Front End Framework:** [NUXT](https://nuxtjs.org) / [Vue.js](https://vuejs.org)  
+**UI Component Library:** [Element-UI](https://element.eleme.io/#/en-US)  
+**Data Structure:** [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)  
+**API:** [Twitter API](https://developer.twitter.com/en/docs) & [Binance API](https://github.com/binance-exchange/binance-api-node)  
+**Middleware:** Custom [Node](https://nodejs.org/en/) / [Express](https://expressjs.com) middleware via [NUXT serverMiddleware](https://nuxtjs.org/api/configuration-servermiddleware/)  
+**Visualization Library:** [D3.js](https://d3js.org)  
+**Additional Libraries:** [ScrollMagic](http://scrollmagic.io), [Lodash](https://lodash.com), [GSAP](https://greensock.com/gsap/), [Axios](https://github.com/axios/axios) & [Twitter-Widget](https://developer.twitter.com/en/docs/twitter-for-websites/javascript-api/overview)  
 
 ## Data Gathering
+All data gathering was carried out as a batch process using a Node.js script. An additional PM2 instance is used to continuously update the data via socket.IO streams. 
 ### Twitter Data
+Twitter data is accessed through three methods.
+- Node script via the Twitter premium (paid service) full archive search. 
+- Node script using [Twit](https://github.com/ttezel/twit) package to incrementally go back through the previous 7 days (free service) of information.
+- Node script using Twit to access Twitter live stream.
 #### Data Manipulation
+  
+### Cryptocurrency Data
 
 ## Data Retrieval & Aggregation
-
-### Cryptocurrency Data
+Axios
 
 ## Visualization Components
 ### Volume Visualization
