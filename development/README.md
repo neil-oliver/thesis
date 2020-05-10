@@ -102,3 +102,7 @@ The uncertainty component makes use of the maximum and minimum values generated 
 ### Twitter Tooltip
 [File](./components/twitter-tooltip.vue)  
 The Twitter tooltip is a wrapper to pass an ID, create and position a single tweet using the Twitter Widget plugin. 
+
+### Progress Tracker
+[File](./components/progress-tracker.vue)  
+The progress tracker component creates dot markers on the right hand side of the screen. Each dot is dynamically generated using the ```H1``` tag in the page. Each marker contains the H1 text on hover over and will link to the element anchor on click.
