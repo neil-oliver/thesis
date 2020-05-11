@@ -139,9 +139,10 @@
       <el-row type="flex" class="row-bg" justify="space-around">
         <el-col :xs="24" :sm="18" :md="12" :lg="8" :xl="8">
           <div class="grid-content bg-purple-light">
-            <h6>The Voice of a Million Tweets</h6>
+            <h1>Don't Judge A Book By It's Cover</h1>
             <div class="content">
-              Spot any patterns? Lets dive deeper and compare the amount amount of retweets, comments and likes.
+              A body of tweets is much more than simply how many of them there are; its about their content too.
+              Lets dive deeper and compare the amount amount of retweets, comments and likes each tweet received.
             </div>
           </div>
         </el-col>
