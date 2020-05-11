@@ -248,15 +248,20 @@ h4{
 
 /* Media Queries */
 
-@media only screen and (max-width: 768px) {
-    body {
-      font-size: 80%;
-    }
+@media only screen and (max-width: 1500px) {
+
     #start-arrow{
         display: none
     }
     .page{
         height:auto;
+    }
+
+  }
+
+@media only screen and (max-width: 768px) {
+    body {
+      font-size: 80%;
     }
     svg text{
         font-size:50%;
