@@ -5,7 +5,7 @@
         <el-col :span="24">
           <el-row type="flex" class="row-bg" justify="space-around">
             <el-col :xs="24" :sm="24" :md="20" :lg="18" :xl="16">
-              <div class="grid-content bg-purple">
+              <div class="grid-content">
                 <h1 class="title">Is Twitter Feeding Bitcoin?</h1>
                 <h2 class="subheading">An analysis of <sentiment-highlight val="Twitter" color="#5cc9f5"/> content, user behavior, and correlation to <sentiment-highlight val="Bitcoin" color="#fccd47"/> market value.</h2>
                 <h3>By Neil Oliver</h3>
@@ -15,7 +15,7 @@
           </el-row>
           <el-row type="flex" class="row-bg" justify="space-around">
             <el-col :xs="24" :sm="18" :md="12" :lg="8" :xl="8">
-              <div class="grid-content bg-purple-light">
+              <div class="grid-content">
                 <div class="content">
                   Since it's introduction in 2008, <span class="bitcoin">Bitcoin</span> has increasingly become the hot investiment that your next door neighbours son kept going on about. 
                   The mysterious electronic currency that was once predominantly known as the payment method of criminals on 'the dark web' was suddenly worth over $20,000 per coin.
@@ -32,7 +32,7 @@
       </el-row>
       <el-row type="flex" class="row-bg" justify="space-around">
         <el-col :xs="24" :sm="18" :md="12" :lg="8" :xl="8">
-          <div class="grid-content bg-purple-light">
+          <div class="grid-content">
             <h1 id="bitcoin-explanation-container">Breaking Down Bitcoin</h1>
             <div class="content">
               <span class="bitcoin">Bitcoin</span> is the original and most popular <a href="https://en.wikipedia.org/wiki/Cryptocurrency">cryptocurrency</a>, a digitial asset designed to be used as a medium of exchange.
@@ -45,19 +45,19 @@
       </el-row>
       <el-row type="flex" style="flex-wrap: wrap;" class="row-bg" justify="center">
         <el-col :xs="12" :sm="10" :md="8" :lg="6" :xl="6">
-          <div class="grid-content bg-purple">
+          <div class="grid-content">
             <img width="100%" src="~static/images/bitcoin-value.svg"/>
           </div>
         </el-col>
         <el-col :xs="12" :sm="10" :md="8" :lg="6" :xl="6">
-          <div class="grid-content bg-purple-light">
+          <div class="grid-content">
             <img width="100%" src="~static/images/bitcoin-activity.svg"/>
           </div>
         </el-col>
       </el-row>
       <el-row type="flex" class="row-bg" justify="space-around">
         <el-col :xs="24" :sm="18" :md="12" :lg="8" :xl="8">
-          <div class="grid-content bg-purple-light">
+          <div class="grid-content">
             <div class="content">
               We can measure <span class="bitcoin">Bitcoin</span> in two ways, either by the value of each coin as it rises and falls, or by how many people are buying and selling <span class="bitcoin">Bitcoin</span>. 
             </div>
@@ -66,7 +66,7 @@
       </el-row>
       <el-row type="flex" class="row-bg" justify="space-around">
         <el-col :xs="24" :sm="18" :md="12" :lg="8" :xl="8">
-          <div class="grid-content bg-purple-light">
+          <div class="grid-content">
             <h1>A little Bird Told Me</h1>
             <div class="content">
               With 330 Million monthly active users and only 13% of users having private profiles, <span class="twitter">Twitter</span> is place to go to get the inside scoop from everyone, ranging from celebrites to that guy called John who lives down the street.
@@ -77,14 +77,14 @@
       </el-row>
       <el-row type="flex" class="row-bg" justify="center">
         <el-col :xs="24" :sm="20" :md="18" :lg="12" :xl="12">
-          <div class="grid-content bg-purple-light">
+          <div class="grid-content">
             <img width="100%" src="~static/images/annotated-tweet.svg"/>
           </div>
         </el-col>
       </el-row>
       <el-row type="flex" class="row-bg" justify="space-around">
         <el-col :xs="24" :sm="18" :md="12" :lg="8" :xl="8">
-          <div class="grid-content bg-purple-light">
+          <div class="grid-content">
             <div class="content">
               Each account is unique from the person behind the account, what the are saying, to how many people follow them and interact with their content. But <strong>which of these elements has the greatest effect on influencing <span class="bitcoin">Bitcoin</span> value?</strong>
             </div>
@@ -93,7 +93,7 @@
       </el-row>
       <el-row type="flex" class="row-bg" justify="space-around">
         <el-col :xs="24" :sm="20" :md="18" :lg="12" :xl="12">
-          <div class="grid-content bg-purple-light">
+          <div class="grid-content">
             <div class="content focus active" style="text-align:center;">
               <h6>Does <span class="twitter">Twitter</span> really have the inside scoop, and if so, where is it hidden?</h6>
               <br>
@@ -114,7 +114,7 @@
       </el-row>
       <el-row type="flex" class="row-bg" justify="space-around">
         <el-col :xs="24" :sm="18" :md="12" :lg="8" :xl="8">
-          <div class="grid-content bg-purple-light">
+          <div class="grid-content">
             <h1>The Voice of a Million Tweets</h1>
             <div class="content">
               When lots of people talk about <span class="bitcoin">Bitcoin</span> on <span class="twitter">Twitter</span>, does the activity of people buying and selling increase as well?
@@ -125,7 +125,7 @@
       </el-row>
       <el-row type="flex" class="row-bg" justify="space-around">
         <el-col :xs="24" :sm="20" :md="18" :lg="12" :xl="12">
-          <div class="grid-content bg-purple-light">
+          <div class="grid-content">
             <volume-vis
               @tooltip="processMouseover"
               @volumeFocusUpdate="updateVolumeFocus"
@@ -138,7 +138,7 @@
       </el-row>
       <el-row type="flex" class="row-bg" justify="space-around">
         <el-col :xs="24" :sm="18" :md="12" :lg="8" :xl="8">
-          <div class="grid-content bg-purple-light">
+          <div class="grid-content">
             <h1>Don't Judge A Book By It's Cover</h1>
             <div class="content">
               A body of tweets is much more than simply how many of them there are; its about their content too.
@@ -149,7 +149,7 @@
       </el-row>
       <el-row type="flex" style="flex-wrap: wrap;" class="row-bg" justify="space-around">
         <el-col :xs="24" :sm="10" :md="10" :lg="10" :xl="10">
-          <div class="grid-content bg-purple">
+          <div class="grid-content">
             <volume-vis
               @tooltip="processMouseover"
               weight="tweets" 
@@ -159,7 +159,7 @@
           </div>
         </el-col>
         <el-col :xs="24" :sm="10" :md="10" :lg="10" :xl="10">
-          <div class="grid-content bg-purple">
+          <div class="grid-content">
             <volume-vis
               @tooltip="processMouseover"
               weight="followers" 
@@ -169,7 +169,7 @@
           </div>
         </el-col>
         <el-col :xs="24" :sm="10" :md="10" :lg="10" :xl="10">
-          <div class="grid-content bg-purple">
+          <div class="grid-content">
             <volume-vis
               @tooltip="processMouseover"
               weight="likes" 
@@ -179,7 +179,7 @@
           </div>
         </el-col>
         <el-col :xs="24" :sm="10" :md="10" :lg="10" :xl="10">
-          <div class="grid-content bg-purple">
+          <div class="grid-content">
             <volume-vis
               @tooltip="processMouseover"
               weight="retweets"
@@ -191,7 +191,7 @@
       </el-row>
       <el-row type="flex" class="row-bg" justify="space-around">
         <el-col :xs="24" :sm="18" :md="12" :lg="8" :xl="8">
-          <div class="grid-content bg-purple-light">
+          <div class="grid-content">
             <h1>Do I care about what you say?</h1>
             <div class="content">
               Maybe listening to <em>everyone</em> isn't such a great idea.
@@ -201,7 +201,7 @@
       </el-row>
       <el-row type="flex" class="row-bg" justify="space-around">
         <el-col :xs="24" :sm="20" :md="18" :lg="12" :xl="12">
-          <div class="grid-content bg-purple-light">
+          <div class="grid-content">
             <div class="content focus active">
               <filters :followers.sync="followers_count" :retweets.sync="retweet_count" :favorites.sync="favorite_count" :sentiment.sync="sentiment_min" :verified.sync="verified" :offset.sync="offset"/>
             </div>
@@ -210,7 +210,7 @@
       </el-row>
       <el-row type="flex" class="row-bg" justify="space-around">
         <el-col :xs="24" :sm="20" :md="18" :lg="12" :xl="12">
-          <div class="grid-content bg-purple-light">
+          <div class="grid-content">
             <bubble-vis @tooltip='processMouseover' 
               :tweets="tweets"/>
           </div>
@@ -218,7 +218,7 @@
       </el-row>
       <el-row type="flex" class="row-bg" justify="space-around">
         <el-col :xs="24" :sm="18" :md="12" :lg="8" :xl="8">
-          <div class="grid-content bg-purple-light">
+          <div class="grid-content">
             <div class="content">
               <div style="font-size:2em; text-align:center; line-height:1.5em;">"I <sentiment-highlight val="love" color="#4af2a1"/> Bitcoin, but i am <sentiment-highlight val="worried" color="#ff6076"/> the price might <sentiment-highlight val="crash" color="#ff6076"/> soon."</div>
             </div>
@@ -227,7 +227,7 @@
       </el-row>
       <el-row type="flex" class="row-bg" justify="space-around">
         <el-col :xs="24" :sm="18" :md="12" :lg="8" :xl="8">
-          <div class="grid-content bg-purple-light">
+          <div class="grid-content">
             <div class="content">
               It's not all about who is talking about <span class="bitcoin">Bitcoin</span>, its about what they are saying. The sentiment of the tweet is how positive or negative it is.
               While there is a little bit more to it than looking at positive and negative words, its a good representation of what is happening behind the scenes.
@@ -238,7 +238,7 @@
       </el-row>
       <el-row type="flex" class="row-bg" justify="space-around">
         <el-col :xs="24" :sm="20" :md="18" :lg="12" :xl="12">
-          <div class="grid-content bg-purple-light">
+          <div class="grid-content">
             <bubble-vis @tooltip='processMouseover' 
               :tweets="tweets"
               options />
@@ -247,7 +247,7 @@
       </el-row>
       <el-row type="flex" class="row-bg" justify="space-around">
         <el-col :xs="24" :sm="20" :md="18" :lg="12" :xl="10">
-          <div class="grid-content bg-purple-light">
+          <div class="grid-content">
             <div class="content focus active" style="width:100%;">
               <el-collapse>
                 <el-collapse-item title="Click Here To Change Your Filters" name="1">
@@ -260,7 +260,7 @@
       </el-row>
       <el-row type="flex" class="row-bg" justify="space-around">
         <el-col :xs="24" :sm="18" :md="12" :lg="8" :xl="8">
-          <div class="grid-content bg-purple-light">
+          <div class="grid-content">
             <h1>It's Time to Look a Little Deeper</h1>
             <div class="content">
               <p>An hour isn't very long when trying to spot patterns. Let's zoom out and look at what 5 days looks like.</p>
@@ -273,7 +273,7 @@
       </el-row>
       <el-row type="flex" class="row-bg" justify="space-around">
         <el-col :xs="24" :sm="18" :md="12" :lg="8" :xl="8">
-          <div class="grid-content bg-purple-light">
+          <div class="grid-content">
             <h1>Together As One</h1>
             <div class="content">
               <p>Let's take a step back and look at the average sentiment of all of the tweets combined, compared with the rise and fall in <span class="bitcoin">Bitcoin</span> price.</p>
@@ -283,14 +283,14 @@
       </el-row>
       <el-row type="flex" class="row-bg" justify="space-around">
         <el-col :xs="24" :sm="20" :md="18" :lg="12" :xl="12">
-          <div class="grid-content bg-purple-light">
+          <div class="grid-content">
             <img width="100%" src="~static/images/sentiment-detail.svg"/>
           </div>
         </el-col>
       </el-row>
       <el-row type="flex" class="row-bg" justify="space-around">
         <el-col :xs="24" :sm="20" :md="18" :lg="12" :xl="10">
-          <div class="grid-content bg-purple-light">
+          <div class="grid-content">
             <div class="content focus active" style="width:100%;">
               <el-collapse>
                 <el-collapse-item title="Click Here To Change Your Filters" name="1">
@@ -303,7 +303,7 @@
       </el-row>
       <el-row type="flex" class="row-bg" justify="space-around">
         <el-col :xs="24" :sm="20" :md="18" :lg="12" :xl="12">
-          <div class="grid-content bg-purple-light">
+          <div class="grid-content">
             <sentiment-vis @tooltip="processMouseover"
               @sentimentFocusUpdate="updateSentimentFocus"
               :weight="0" 
@@ -315,7 +315,7 @@
       </el-row>
       <el-row type="flex" class="row-bg" justify="space-around">
         <el-col :xs="20" :sm="16" :md="8" :lg="6" :xl="6">
-          <div class="grid-content bg-purple-light">
+          <div class="grid-content">
             <h1>Look Who's Talking</h1>
             <div class="content">
               <p>With so many numbers, graphs and filters, it can be easy to forget we are talking about real Tweets from real people.</p>
@@ -331,7 +331,7 @@
       </el-row>
       <el-row type="flex" class="row-bg" justify="space-around">
         <el-col :xs="24" :sm="18" :md="12" :lg="8" :xl="8">
-          <div class="grid-content bg-purple-light">
+          <div class="grid-content">
             <h1>Weight a minute</h1>
             <div class="content">
               <p>Enough of the bad puns (we cant promise anything), weighted averages might be the key to unlocking <span class="twitter">Twitter's</span> secrets.</p>
@@ -341,14 +341,14 @@
       </el-row>
       <el-row type="flex" class="row-bg" justify="space-around">
         <el-col :xs="24" :sm="24" :md="20" :lg="18" :xl="16">
-          <div class="grid-content bg-purple-light">
+          <div class="grid-content">
             <img width="100%" src="~static/images/weighted-average.svg"/>
           </div>
         </el-col>
       </el-row>
       <el-row type="flex" class="row-bg" justify="space-around">
         <el-col :xs="24" :sm="18" :md="12" :lg="8" :xl="8">
-          <div class="grid-content bg-purple-light">
+          <div class="grid-content">
             <div class="content">
               <p>You don't need to understand the Math, just that tweets with a higher 'weight' (either number of followers, comments, retweets or likes) will contribute more to the overall score.</p>
             </div>
@@ -357,7 +357,7 @@
       </el-row>
       <el-row type="flex" style="flex-wrap: wrap;" class="row-bg" justify="space-around">
         <el-col :xs="24" :sm="10" :md="10" :lg="10" :xl="10">
-          <div class="grid-content bg-purple">
+          <div class="grid-content">
             <sentiment-vis @tooltip="processMouseover"
               :weight="0"
               :tweets="aggregateTweets" 
@@ -366,7 +366,7 @@
           </div>
         </el-col>
         <el-col :xs="24" :sm="10" :md="10" :lg="10" :xl="10">
-          <div class="grid-content bg-purple">
+          <div class="grid-content">
             <sentiment-vis @tooltip="processMouseover"
               :weight="1"
               :tweets="aggregateTweets" 
@@ -375,7 +375,7 @@
           </div>
         </el-col>
         <el-col :xs="24" :sm="10" :md="10" :lg="10" :xl="10">
-          <div class="grid-content bg-purple">
+          <div class="grid-content">
             <sentiment-vis @tooltip="processMouseover"
               :weight="2"
               :tweets="aggregateTweets" 
@@ -384,7 +384,7 @@
           </div>
         </el-col>
         <el-col :xs="24" :sm="10" :md="10" :lg="10" :xl="10">
-          <div class="grid-content bg-purple">
+          <div class="grid-content">
             <sentiment-vis @tooltip="processMouseover"
               :weight="3"
               :tweets="aggregateTweets" 
@@ -395,7 +395,7 @@
       </el-row>
       <el-row type="flex" class="row-bg" justify="space-around">
         <el-col :xs="24" :sm="18" :md="12" :lg="8" :xl="8">
-          <div class="grid-content bg-purple-light">
+          <div class="grid-content">
             <h1>You can't influence me... can you?</h1>
             <div class="content">
               Does influence happen immediately? It is likely that there is a delay between people talking on <span class="twitter">Twitter</span> and people buying and selling <span class="bitcoin">Bitcoin</span>.
@@ -405,14 +405,14 @@
       </el-row>
       <el-row type="flex" class="row-bg" justify="space-around">
         <el-col :xs="24" :sm="20" :md="18" :lg="12" :xl="12">
-          <div class="grid-content bg-purple-light">
+          <div class="grid-content">
               <img width="100%" src="~static/images/offset-animation.gif"/>
           </div>
         </el-col>
       </el-row>
       <el-row type="flex" class="row-bg" justify="space-around">
         <el-col :xs="24" :sm="20" :md="18" :lg="12" :xl="10">
-          <div class="grid-content bg-purple-light">
+          <div class="grid-content">
             <div class="content focus active" style="width:100%;">
               <el-collapse>
                 <el-collapse-item title="Click Here To Change Your Filters" name="1">
@@ -425,7 +425,7 @@
       </el-row>
       <el-row type="flex" class="row-bg" justify="space-around">
         <el-col :xs="24" :sm="18" :md="12" :lg="8" :xl="8">
-          <div class="grid-content bg-purple-light">
+          <div class="grid-content">
             <h1>The Big Five Zero</h1>
             <div class="content">
               What are the chances of guessing a coin flip correctly? 50-50. 
@@ -441,7 +441,7 @@
       </el-row>
       <el-row type="flex" class="row-bg" justify="space-around">
         <el-col :xs="24" :sm="24" :md="20" :lg="18" :xl="18">
-          <div class="grid-content bg-purple-light">
+          <div class="grid-content">
             <final-vis @finalTooltip="processFinalTooltip"
               @finalFocusUpdate="updateFinalFocus"
               :tweets="aggregateTweets" 
@@ -452,7 +452,7 @@
       </el-row>
       <el-row type="flex" class="row-bg" justify="space-around">
         <el-col :xs="24" :sm="18" :md="12" :lg="8" :xl="8">
-          <div class="grid-content bg-purple-light">
+          <div class="grid-content">
             <h6>Why is there no sentiment Scale?</h6>
             <div class="content">
               <p>The <span class="twitter">blue line</span> represents the continuous rise and fall in sentiment.
@@ -465,7 +465,7 @@
       </el-row>
       <el-row type="flex" class="row-bg" justify="space-around">
         <el-col :xs="24" :sm="18" :md="12" :lg="8" :xl="8">
-          <div class="grid-content bg-purple-light">
+          <div class="grid-content">
             <h1>Are you Sure?</h1>
             <div class="content">
               For each time period, we have to take average results from lots of Tweets and <span class="bitcoin">Bitcoin</span> price data. 
@@ -477,14 +477,14 @@
       </el-row>
       <el-row type="flex" class="row-bg" justify="space-around">
         <el-col :xs="24" :sm="20" :md="18" :lg="12" :xl="12">
-          <div class="grid-content bg-purple-light">
+          <div class="grid-content">
               <img width="100%" src="~static/images/uncertainty.svg"/>
           </div>
         </el-col>
       </el-row>
       <el-row type="flex" class="row-bg" justify="space-around">
         <el-col :xs="24" :sm="18" :md="12" :lg="8" :xl="8">
-          <div class="grid-content bg-purple-light">
+          <div class="grid-content">
             <h1>Can we predict Bitcoin price now?</h1>
             <div class="content">
               No, This isn't a prediction tool. 
@@ -499,6 +499,12 @@
         </el-col>
       </el-row>
     </el-main>
+        <el-footer class="footer">
+          <div class="content">
+            <a href="http://github.com/neil-oliver/thesis"><span style="padding-right:20px;"><img width="12px" src="~static/images/github.svg"/> Technical Documentation</span></a>
+            <a href="http://neiloliver.co"><span><i class="el-icon-data-analysis"></i> Portfolio</span></a>
+          </div>
+    </el-footer>
     <div class="progress">
       <progress-menu v-for="(element,i) in headings" :key="i" :el="element" :offset="scrollOffset"/>
     </div>
@@ -510,6 +516,22 @@
 <script src="./js/main.js"></script>
 <style src="./css/styles.css"></style>
 <style scoped>
+  .footer{
+    width:100vw;
+    background: #D3D3D3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer a {
+    font-weight: normal;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    fill:grey;
+    font-size: small;
+    text-transform: uppercase;
+  }
+
   .content{
     text-align: left;
 

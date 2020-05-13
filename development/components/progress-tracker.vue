@@ -66,6 +66,7 @@ export default {
         border-style: solid;
         border-width: 2px;
         border-color: #bbb;
+        pointer-events: auto;
     }
     .progressfocus{
         border-color: #5a5a5a;

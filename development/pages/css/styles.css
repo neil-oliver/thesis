@@ -237,6 +237,7 @@ h4{
     top:0;
     flex-direction: column;
     justify-content: space-around;
+    pointer-events: none;
 }
 
 .big-button{
