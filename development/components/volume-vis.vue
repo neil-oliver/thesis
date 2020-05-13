@@ -2,14 +2,14 @@
   <div class="vis" ref="volumeviscontainer">
     <h6>{{select.charAt(0).toUpperCase() + select.slice(1)}}</h6>
     <div class="options inner-focus active" v-if="main">
-      <div>
+      <!-- <div>
         <el-radio-group v-model="select" @change="bars = true" size="mini">
           <el-radio-button label="tweets"></el-radio-button>
           <el-radio-button label="followers"></el-radio-button>
           <el-radio-button label="likes"></el-radio-button>
           <el-radio-button label="retweets"></el-radio-button>
         </el-radio-group>
-      </div>
+      </div> -->
       <el-checkbox size="mini" v-model="bars" label="Display Individual Tweets" border></el-checkbox>
     </div>
     <svg width="100%" :height="svgHeight" v-if="tweets.length > 0 && candles.length > 0">
@@ -103,7 +103,7 @@ export default {
       return d3.min(this.tweets, d => new Date(d.created_at))
     },
     end(){
-      return d3.max(this.tweets, d => new Date(d.created_at))
+      return d3.max(this.filteredTweets, d => new Date(d.created_at))
     },
     width() {
       return this.svgWidth - this.margin.left - this.margin.right;
@@ -121,12 +121,22 @@ export default {
     strokeOpacity(){
       return this.bars ? "0" : "1"
     },
+    filteredTweets(){
+      let maxDate = d3.max(this.tweets, d => d.created_at)
+      maxDate = this.filterTime(maxDate)
+      return this.tweets.filter(d => d.created_at < maxDate)
+    },
     stack(){
-        let nested = d3.nest().key(d => this.filterTime(d.created_at)).entries(this.tweets)
-        let keys = d3.range(0,nested.length, 1)
+
+        let nested = d3.nest().key(d => this.filterTime(d.created_at)).entries(this.filteredTweets)
+        let maxVals = d3.max(nested.map((d) => d.values.length))
+        let keys = d3.range(maxVals)
         let stackSetup = d3.stack()
             .keys(keys)
-            .value((d,key) => key < d.values.length ? this.stackSelect.selection(d,key) : 0)
+            .value((d,key) => {
+              return key < d.values.length ? this.stackSelect.selection(d,key) : 0
+              })
+
         return stackSetup(nested)
     },
     tweetBars(){
@@ -207,6 +217,9 @@ export default {
   },
   methods:{
     filterTime (date){
+          date = JSON.parse(JSON.stringify(date))
+          date = new Date(date)
+          date.setMinutes(0)
           date.setSeconds(0)
           date.setMilliseconds(0)
 

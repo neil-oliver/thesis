@@ -43,32 +43,42 @@ export default {
     data (){
         return {
             allTweets : [],
-            fixedStart: '2020-03-24T12:00:00.000Z',
+            fixedStart: '2020-05-03T12:00:00.000Z',
             tooltipVisible: false,
             finalTooltipVisible: false,
             tooltipIndex: 0,
             selectedTweet: "6",
             aggregateTweets: [],
-            hourAggregateTweets:[],
             aggregateCandles: [],
             hourAggregateCandles: [],
-            timePeriod:'minute', startPeriod:0, endPeriod:60, followers_count:0, retweet_count:0, reply_count:0, favorite_count: 0, sentiment_min: 0, verified: false, grid: true, stacked_select:'tweets', bars:false, fixedHeight: false, curve: true, offset:0,
+            timePeriod:'hour', startPeriod:0, endPeriod:12, followers_count:0, retweet_count:0, reply_count:0, favorite_count: 0, sentiment_min: 0, verified: false, grid: true, stacked_select:'tweets', bars:false, fixedHeight: false, curve: true, offset:0,
             volumeFocus:"tweets",
             sentimentFocus:"tweets",
             sentimentFocus:"tweets",
             finalFocus:"avgSentiment",
             headings: [],
             scrollOffset:0,
+            earliest: new Date("March 1, 2020"),
+            latest: new Date("March 31, 2020"),
+            carouselItems:[],        
             pickerOptions: {
-                disabledDate(time) {
-                    return time.getTime() < new Date("March 1, 2020") || time.getTime() > new Date("March 31, 2020");
-                }
+                disabledDate: this.disabledDates
             },
-            carouselItems:[]
+            spinner:false
         }
     },
     mounted(){
         this.headings = document.querySelectorAll("h1")
+        let _this = this
+
+        const Block1 = this.$scrollmagic.scene({
+            triggerElement: '#big-button',
+            triggerHook: 0.2
+        }).on('enter', function (event) {
+            _this.goBig()
+        });
+        this.$scrollmagic.addScene(Block1)
+
     },
     async created(){
         if (process.client) { 
@@ -81,19 +91,12 @@ export default {
 
         let _this = this;
 
-        axios.get('api/tweets/', {
-            params :{
-            startDate : this.startDate,
-            endDate: new Date(this.fixedStart).addMinutes((this.startPeriod + 60))
-            }
+          axios.get('api/dates/', {
+            params :{}
           })
           .then(function (response) {
-            let tweetdata = response.data.sort((a, b) => new Date(a.timestamp) - new Date(b.timestamp))
-
-            tweetdata.forEach(element => {
-                _this.allTweets.push(processTweet(element.content))
-            });
-
+            _this.earliest = new Date(response.data.start)
+            _this.latest = new Date(response.data.end)
           })
           .catch(function (error) {
             console.log(error);
@@ -188,16 +191,33 @@ export default {
         tweetIds(){
             let ids = this.aggregateTweets.map(d => d.id)
             return [].concat.apply([], ids)
+        },
+        maxTimePeriod(){
+            let max = (this.latest - this.earliest - (this.startPeriod*60000))
+            if (this.timePeriod == 'minute'){
+                max = max / (60*1000)
+            } else {
+                max = max / (60*60*1000)
+            }
+            if (max > 720) {
+                max = 720 //12 hours or 30 days in minutes max
+            }
+
+            return Math.floor(max)
+
         }
     },
     methods: {
+        disabledDates(time) {
+            return time.getTime() < this.earliest || time.getTime() > this.latest;
+        },
         changeCarouselTweets(){
             this.carouselItems.shift()
             this.carouselItems.push(this.tweetIds.pop())
         },
         goBig(){
             this.timePeriod = "hour";
-            this.endPeriod = 125;
+            this.endPeriod = 216;
         },
         handleScroll () {
             this.scrollOffset = window.scrollY
@@ -247,8 +267,32 @@ export default {
                 .style("top", (event.clientY) + "px");
         },
         async updateData(force){
-            console.log('getting data')
+            this.spinner = true
             let _this = this;
+
+            if (force == true){
+                axios.get('api/tweets/', {
+                    params :{
+                    startDate : this.startDate,
+                    endDate: new Date(this.fixedStart).addHours((this.startPeriod + 12))
+                    }
+                  })
+                  .then(function (response) {
+                    let tweetdata = response.data.sort((a, b) => new Date(a.timestamp) - new Date(b.timestamp))
+        
+                    while(_this.allTweets.length > 0) {_this.allTweets.pop();}
+
+                    tweetdata.forEach(element => {
+                        _this.allTweets.push(processTweet(element.content))
+        
+                    });
+                    _this.spinner = false        
+                  })
+                  .catch(function (error) {
+                    console.log(error);
+                    _this.spinner = false
+                  });
+            }
 
             axios.get('api', {
                 params :{
@@ -291,17 +335,19 @@ export default {
                         }
                     }
                 }
-                console.log('updated data')
                 _this.aggregateTweets = newaggtweets
 
                 if (force) {
-                    _this.hourAggregateTweets = tweetdata
                     _this.hourAggregateCandles = candledata
                 }
+
+                _this.spinner = false
 
             })
             .catch(function (error) {
                 console.log(error);
+                _this.spinner = false
+
             });
         }
     }

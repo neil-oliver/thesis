@@ -43,7 +43,7 @@ async function aggregate(startDate, endDate, retweet_count, favorite_count, foll
             'timestamp': {
             '$type': 'date', 
             '$gte': new Date(startDate), 
-            '$lte': new Date(endDate)
+            '$lt': new Date(endDate)
             }
         }
     }
@@ -256,7 +256,7 @@ async function aggregate(startDate, endDate, retweet_count, favorite_count, foll
         MongoClient.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true },
             function(connectErr, client) {
               assert.equal(null, connectErr);
-              const coll = client.db('ThesisDB').collection('Thesis');
+              const coll = client.db(process.env.MONGO_DB).collection(process.env.MONGO_COLLECTION);
               coll.aggregate(pipeline).toArray()
               .then(results => {
                 resolve(results)
@@ -305,7 +305,7 @@ async function aggregateCandles(startDate, endDate, period) {
             'timestamp': {
             '$type': 'date', 
             '$gte': new Date(startDate), 
-            '$lte': new Date(endDate)
+            '$lt': new Date(endDate)
             }
         }
     }
@@ -451,7 +451,7 @@ async function aggregateCandles(startDate, endDate, period) {
         MongoClient.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true },
             function(connectErr, client) {
               assert.equal(null, connectErr);
-              const coll = client.db('ThesisDB').collection('Thesis');
+              const coll = client.db(process.env.MONGO_DB).collection(process.env.MONGO_COLLECTION);
               coll.aggregate(pipeline).toArray()
               .then(results => {
                 resolve(results)
@@ -471,7 +471,7 @@ function getTweets(startDate, endDate){
         'type': 'tweet', 
         'timestamp': {
         '$gte': new Date(startDate),
-        '$lte': new Date(endDate)
+        '$lt': new Date(endDate)
 
         }
     }
@@ -480,8 +480,41 @@ function getTweets(startDate, endDate){
         MongoClient.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true },
             function(connectErr, client) {
               assert.equal(null, connectErr);
-              const coll = client.db('ThesisDB').collection('Thesis');
+              const coll = client.db(process.env.MONGO_DB).collection(process.env.MONGO_COLLECTION);
               coll.find(filter).toArray()
+              .then(results => {
+                resolve(results)
+              })
+              //client.close();
+            });
+    });
+}
+
+app.get('/dates', async (req, res) => {
+    let start = await getDates('start')
+    let end = await getDates('end')
+
+    res.send({start:start[0].timestamp,end:end[0].timestamp})
+});
+
+function getDates(dateType){
+
+    let sort = -1
+
+    if (dateType =='start'){
+        sort = 1
+    }
+
+    let filter = {
+        'type': 'tweet', 
+    }
+
+    return new Promise(resolve => {
+        MongoClient.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true },
+            function(connectErr, client) {
+              assert.equal(null, connectErr);
+              const coll = client.db(process.env.MONGO_DB).collection(process.env.MONGO_COLLECTION);
+              coll.find(filter).sort({ "timestamp" : sort }).limit(1).toArray()
               .then(results => {
                 resolve(results)
               })

@@ -97,7 +97,7 @@
             <div class="content focus active" style="text-align:center;">
               <h6>Does <span class="twitter">Twitter</span> really have the inside scoop, and if so, where is it hidden?</h6>
               <br>
-              <p>Let's look at the <animate-number :val="tweets.length"/> Tweets that took place over 1 Hour from 8am - 9am on {{startDate}}.</p>
+              <p>Let's look at the <animate-number :val="tweets.length"/> Tweets that took place over 12 Hours starting from {{startDate}}.</p>
               <br>
               <p>Want to see a different date? You can simply change it.</p>
               <br>
@@ -264,7 +264,7 @@
             <h1>It's Time to Look a Little Deeper</h1>
             <div class="content">
               <p>An hour isn't very long when trying to spot patterns. Let's zoom out and look at what 5 days looks like.</p>
-              <div style="text-align:center;padding:20px;"><el-button class="big-button" type="success" @click="goBig">Click Me!</el-button></div>
+              <div style="text-align:center;padding:20px;"><el-button id='big-button' class="big-button" type="success" @click="goBig">Click Me!</el-button></div>
               <p>We are now looking at <animate-number :val="filteredTweetCount" :grow="true" :highlight="true" /> tweets.</p> 
               <p>You can now change up the time period in any of the filter sections below.</p>
             </div>
@@ -294,7 +294,7 @@
             <div class="content focus active" style="width:100%;">
               <el-collapse>
                 <el-collapse-item title="Click Here To Change Your Filters" name="1">
-                  <filters :followers.sync="followers_count" :retweets.sync="retweet_count" :favorites.sync="favorite_count" :sentiment.sync="sentiment_min" :verified.sync="verified" :offset.sync="offset"/>
+                  <filters :followers.sync="followers_count" :retweets.sync="retweet_count" :favorites.sync="favorite_count" :sentiment.sync="sentiment_min" :verified.sync="verified" :offset.sync="offset" :timePeriod.sync="timePeriod" :endPeriod.sync="endPeriod" :maxTimePeriod="maxTimePeriod" :level="1"/>
                 </el-collapse-item>
               </el-collapse>
             </div>
@@ -416,7 +416,7 @@
             <div class="content focus active" style="width:100%;">
               <el-collapse>
                 <el-collapse-item title="Click Here To Change Your Filters" name="1">
-                  <filters :followers.sync="followers_count" :retweets.sync="retweet_count" :favorites.sync="favorite_count" :sentiment.sync="sentiment_min" :verified.sync="verified" :offset.sync="offset"/>
+                  <filters :followers.sync="followers_count" :retweets.sync="retweet_count" :favorites.sync="favorite_count" :sentiment.sync="sentiment_min" :verified.sync="verified" :offset.sync="offset" :timePeriod.sync="timePeriod" :endPeriod.sync="endPeriod" :maxTimePeriod="maxTimePeriod" :level="2"/>
                 </el-collapse-item>
               </el-collapse>
             </div>
@@ -504,6 +504,7 @@
     </div>
     <twitter-tooltip :id='selectedTweet' :visible='tooltipVisible'></twitter-tooltip>
     <tooltip :visible="finalTooltipVisible" :index="tooltipIndex" :tweets="aggregateTweets" :candles="aggregateCandles" sentiment="avgSentiment"/>
+    <div class="spinner" v-if="spinner == true"><i class="el-icon-loading" style="font-size:medium;;"></i><span style="padding-left:5px;">Loading</span></div>
   </el-container>
 </template>
 <script src="./js/main.js"></script>
@@ -526,7 +527,7 @@
   .grid-content {
     text-align: center;
     overflow: hidden;
-    padding:20px
+    padding:20px;
   }
 
 </style>

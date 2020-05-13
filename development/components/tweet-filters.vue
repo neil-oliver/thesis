@@ -39,13 +39,25 @@
           <el-radio-button label="0.5">Strong</el-radio-button>
           <el-radio-button label="0.8">Very Strong</el-radio-button>
         </el-radio-group>
+
       </div>
       <div style="padding:0 0 10px 0;">
         <div class="button-group-label"></div>
         <el-checkbox :value="verified" @input="$emit('update:verified',$event)" label="Verified Users Only" border size="mini"></el-checkbox>
       </div>
-      <div style="padding:0 0 10px 0;">
-        <div class="button-group-label"></div>
+      <div style="padding:0 0 10px 0;" v-if="level > 0">
+        <div class="button-group-label">Time Period</div>
+        <el-radio-group :value="timePeriod" @input="$emit('update:timePeriod',$event)" size="mini">
+          <el-radio-button label="minute"></el-radio-button>
+          <el-radio-button label="hour"></el-radio-button>
+        </el-radio-group>
+      </div>
+      <div style="padding:0 0 10px 0;" v-if="level > 0">
+        <div class="button-group-label">number of {{timePeriod}}'s</div>
+          <el-input-number size="mini" :value="endPeriod" @input="$emit('update:endPeriod',$event)" :min="1" :max="maxTimePeriod"></el-input-number>
+      </div>
+      <div style="padding:0 0 10px 0;" v-if="level > 1">
+        <div class="button-group-label">Offset</div>
           <el-input-number size="mini" :value="offset" @input="$emit('update:offset',$event)" :min="-30" :max="0"></el-input-number>
       </div>
     </div>
@@ -54,7 +66,7 @@
 <script>
 export default {
   name: 'tweet-filters',
-  props: ['followers', 'retweets', 'favorites', 'sentiment', 'verified', 'offset'],
+  props: ['followers', 'retweets', 'favorites', 'sentiment', 'verified', 'offset', 'level', 'timePeriod', 'endPeriod', 'maxTimePeriod',],
   methods:{
     test(event){
       console.log(event)
