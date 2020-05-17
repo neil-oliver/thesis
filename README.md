@@ -20,6 +20,7 @@ The visualizations present comparisons of different methods of user interactions
 Rather than provide definitive answers, the project invites the user to explore the vast array of filtering, weighting and offset models to form their own conclusions and observations.  
   
 ## Screen Captures
+![](./devices.png)
 ![](./preview.png)
 ![](./1.png)
 ![](./2.png)
